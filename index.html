@@ -38,7 +38,7 @@
     /* Hero */
     .hero { border-bottom:1px solid var(--border); padding:64px 24px 48px; text-align:center; background:radial-gradient(ellipse at 50% 0%,rgba(124,106,255,0.12) 0%,transparent 70%); }
     .hero-badge { display:inline-flex; align-items:center; gap:6px; background:var(--tag-bg); border:1px solid var(--border); border-radius:20px; padding:4px 12px; font-size:12px; color:var(--accent2); margin-bottom:20px; white-space:nowrap; }
-    .hero-badge span { width:6px; height:6px; background:var(--green); border-radius:50%; animation:pulse 2s infinite; }
+    .hero-badge .dot { width:6px; height:6px; background:var(--green); border-radius:50%; animation:pulse 2s infinite; flex-shrink:0; }
     @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.4} }
     .hero h1 { font-size:42px; font-weight:700; letter-spacing:-1px; margin-bottom:16px; }
     .hero h1 em { background:linear-gradient(135deg,var(--accent),#c084fc); -webkit-background-clip:text; -webkit-text-fill-color:transparent; font-style:normal; }
@@ -140,7 +140,7 @@
 </header>
 
 <div class="hero">
-  <div class="hero-badge"><span></span> <span data-i18n="badge"></span></div>
+  <div class="hero-badge"><span class="dot"></span> <span data-i18n="badge"></span></div>
   <h1><span data-i18n="hero_title1"></span> <em data-i18n="hero_title2"></em><br><span data-i18n="hero_title3"></span></h1>
   <p data-i18n="hero_desc"></p>
 </div>
