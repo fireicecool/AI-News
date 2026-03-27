@@ -1,0 +1,51 @@
+[
+  {
+    "date": "2026-03-27",
+    "title": "AI Community Digest: Agent Workflows, Local LLM Hardware & Claude macOS Control",
+    "summary": "This period saw active technical sharing centered on the evolution of agent workflows and local LLM hardware optimization. Claude Code's macOS control feature release sparked security debates, while energy infrastructure discussions extended beyond technical limits.",
+    "keywords": [
+      ["🤖", "Agent Workflow", "84"],
+      ["💻", "Local LLM", "67"],
+      ["⚡", "Claude Code", "67"],
+      ["🔍", "RAG", "38"],
+      ["🖥", "cmux", "30"]
+    ],
+    "sections": [
+      {
+        "title": "1. Agent Workflow & Terminal Tools — cmux and the Open-Source Ecosystem",
+        "overview": "Active discussions emerged around cmux, a terminal-based agent management tool. Comparisons with tmux and Warp highlighted the limitations and strengths of each tool. Windows compatibility issues were a major concern among users.",
+        "items": [
+          { "label": "cmux Built-in Browser Control", "desc": "Claude Code struggles to recognize cmux's built-in browser, causing configuration issues.", "url": "" },
+          { "label": "VoltaAgent Open Source", "desc": "Agent interface supporting multilingual use cases shared by the community.", "url": "https://github.com/VoltAgent/voltagent" },
+          { "label": "OpenCode CLI Tool", "desc": "TUI tool usage guide for opencode shared via Reddit.", "url": "https://www.reddit.com/r/opencodeCLI" }
+        ],
+        "insight": "Terminal tools are evolving beyond simple execution into agent control centers, with the open-source ecosystem rapidly supporting this shift."
+      },
+      {
+        "title": "2. Local LLM Hardware & Quantization — MacBook vs Windows Performance",
+        "overview": "Technical discussions on hardware configurations for running local LLMs and quantization techniques. Data was shared on M5 Pro MacBook's ability to run large models and its power efficiency.",
+        "items": [
+          { "label": "JANG Quantization Tech", "desc": "Memory savings for running high-end models via the JANG tool.", "url": "https://jangq.ai" },
+          { "label": "MacBook Local Performance", "desc": "Testing 122B model viability on M5 Pro (64GB RAM).", "url": "" },
+          { "label": "Windows GPU Overheating", "desc": "RTX 5070 Ti hits 100% GPU usage even during text generation alone.", "url": "" }
+        ],
+        "insight": "Quantization is key to maximizing hardware efficiency for local models. Noise and thermal characteristics vary by device — choose hardware that fits your work environment."
+      },
+      {
+        "title": "3. Claude Code macOS Control & Security — Physical Agent Control Debate",
+        "overview": "Anthropic officially released Claude Code macOS-exclusive features enabling coordinate-based mouse control of third-party applications. Immediate security concerns were raised alongside the convenience gains.",
+        "items": [
+          { "label": "Claude macOS Computer Control", "desc": "Officially supports coordinate-based control, including KakaoTalk and phone calls.", "url": "https://x.com/claudeai" },
+          { "label": "Claude Long Running Support", "desc": "Workflow optimization for task loops excluding rest time.", "url": "https://www.anthropic.com/research/long-running-Claude" }
+        ],
+        "insight": "As AI enters physical environment control, strict access controls and 'verified task scopes' are now essential."
+      }
+    ],
+    "signals": {
+      "hot": "Agent workflow adoption fever & cmux rollout",
+      "grow": "Local LLM performance gains & RAG optimization tools",
+      "warn": "Claude macOS control security risks & WSL compatibility",
+      "shift": "Energy/infra awareness & IDE → Agent-centric paradigm"
+    }
+  }
+]
