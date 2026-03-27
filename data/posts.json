@@ -3,6 +3,324 @@
     "date": "2026-03-27",
     "translations": {
       "ko": {
+        "title": "AI 커뮤니티 다이제스트: OpenAI 소라 종료·GPT-5.3 출시, 구글 Gemini 3 Flash, Anthropic 국방부 갈등, 한국 AI 도약",
+        "summary": "OpenAI가 소라 비디오 생성기를 중단하고 GPT-5.3 Instant를 출시하는 한편, 구글 DeepMind는 프론티어 성능의 Gemini 3 Flash를 공개했습니다. Anthropic은 자율 무기 협력 거부로 국방부와 갈등을 빚고 있으며, 한국은 글로벌 AI 도입 순위에서 7단계 상승하며 약진했습니다.",
+        "keywords": [
+          [
+            "🤖",
+            "GPT-5.3 & Gemini 3 Flash",
+            92
+          ],
+          [
+            "🎬",
+            "소라 서비스 종료",
+            85
+          ],
+          [
+            "⚔️",
+            "Anthropic 국방부 갈등",
+            83
+          ],
+          [
+            "🇰🇷",
+            "한국 AI 도약",
+            74
+          ],
+          [
+            "⚡",
+            "AI 하드웨어 혁신",
+            70
+          ]
+        ],
+        "sections": [
+          {
+            "title": "1. OpenAI의 대전환: 소라 종료와 GPT-5.3 출시",
+            "overview": "OpenAI가 2024년 말 출시했던 소라 비디오 생성기를 단 6개월 만에 종료하고, 개인화 기능이 강화된 GPT-5.3 Instant를 선보였습니다. 110억 달러 규모의 역대급 펀딩 라운드도 완료했습니다.",
+            "items": [
+              {
+                "label": "소라 비디오 생성기 공식 종료",
+                "desc": "OpenAI가 디즈니와의 10억 달러 규모 계약에도 불구하고 소라 서비스를 종료했습니다. 비디오 AI 시장 경쟁 격화와 수익성 문제가 주요 원인으로 분석됩니다. (출처: The Rundown AI)",
+                "url": "https://www.therundown.ai/p/openai-sora-gets-the-axe"
+              },
+              {
+                "label": "GPT-5.3 Instant 출시: 맞춤형 AI 시대",
+                "desc": "OpenAI가 사용자가 열정·따뜻함·이모지 사용 등을 직접 조절할 수 있는 GPT-5.3 Instant를 출시했습니다. ChatGPT 개인화의 새로운 기준이 될 전망입니다. (출처: The Neuron Daily)",
+                "url": "https://www.theneurondaily.com/p/sora-lasted-6-months-disney-s-1b-deal-lasted-3"
+              },
+              {
+                "label": "OpenAI, 1,100억 달러 역대 최대 펀딩 유치",
+                "desc": "아마존(500억$), 엔비디아(300억$), 소프트뱅크(300억$) 등으로부터 총 1,100억 달러를 조달해 기업가치 7,300억 달러를 기록했습니다. (출처: OpenAI)",
+                "url": "https://openai.com/news/"
+              },
+              {
+                "label": "OpenAI-에너지부 AI 협력 협약 체결",
+                "desc": "OpenAI와 미국 에너지부가 AI 및 첨단 컴퓨팅 협력을 위한 양해각서(MOU)를 체결했습니다. '2026 과학의 해' 이니셔티브와 연계됩니다. (출처: OpenAI)",
+                "url": "https://openai.com/index/us-department-of-energy-collaboration/"
+              }
+            ],
+            "insight": "OpenAI가 비디오 생성 시장에서 발을 빼고 개인화 AI와 에너지·과학 인프라 분야로 전략적 무게중심을 이동하고 있습니다."
+          },
+          {
+            "title": "2. 구글 DeepMind: Gemini 3 Flash와 AGI 측정 프레임워크",
+            "overview": "구글 DeepMind가 프론티어 수준의 성능을 갖춘 경량 모델 Gemini 3 Flash를 출시하고, AGI 진척도 측정을 위한 인지 프레임워크도 공개했습니다.",
+            "items": [
+              {
+                "label": "Gemini 3 Flash: 경량 모델의 프론티어 성능",
+                "desc": "GPQA Diamond에서 90.4%, Humanity's Last Exam에서 33.7%를 기록한 Gemini 3 Flash가 공개됐습니다. 빠른 속도와 저비용으로 프론티어급 성능을 구현했습니다. (출처: Google DeepMind)",
+                "url": "https://deepmind.google/blog/gemini-3-flash-frontier-intelligence-built-for-speed/"
+              },
+              {
+                "label": "AGI 진척도 측정 인지 프레임워크 발표",
+                "desc": "구글 DeepMind가 AGI를 향한 진척을 측정하는 인지 과학 기반 프레임워크를 공개하고, 관련 평가 설계를 위한 20만 달러 규모의 캐글 해커톤을 개최합니다. (출처: Google DeepMind)",
+                "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/measuring-agi-cognitive-framework/"
+              },
+              {
+                "label": "Google DeepMind, SIMA 2 포함 7편의 AI 연구 논문 동시 공개",
+                "desc": "SIMA 2, Nested Learning 등 멀티모달 추론과 추론 능력을 발전시키는 7편의 선도적 연구 논문이 동시에 발표됐습니다. (출처: The Neuron Daily)",
+                "url": "https://www.theneurondaily.com/p/google-just-dropped-7-ai-papers-all-bangers"
+              }
+            ],
+            "insight": "구글이 모델 효율성과 AGI 로드맵 투명성이라는 두 마리 토끼를 동시에 잡으려는 전략을 구사하고 있습니다."
+          },
+          {
+            "title": "3. Anthropic 국방부 갈등과 AI 군사 윤리",
+            "overview": "Anthropic이 자율 무기·대규모 감시 목적 사용 거부 원칙을 고수하면서 미국 국방부와 갈등을 빚고 있습니다. 2억 달러 규모의 정부 계약이 위기에 처했습니다.",
+            "items": [
+              {
+                "label": "Anthropic, 국방부 요청 거절로 계약 위기",
+                "desc": "Anthropic이 자율 무기 및 대규모 감시 목적으로 Claude를 활용하려는 국방부의 완화된 접근 요청을 거부했습니다. 2억 달러 규모의 정부 계약이 위험에 처한 것으로 알려졌습니다. (출처: Ben's Bites)",
+                "url": "https://www.bensbites.com/p/claude-has-some-conflicts"
+              },
+              {
+                "label": "Jony Ive와 협업한 AI 펜 '검드롭' 개발 중",
+                "desc": "OpenAI와 Jony Ive가 공동 개발 중인 AI 기기 '검드롭'은 손글씨를 ChatGPT로 전사하고 음성 대화를 지원하는 AI 펜으로 알려졌습니다. (출처: The Neuron Daily)",
+                "url": "https://www.theneurondaily.com/p/openai-and-jony-ive-s-ai-device-is-a-pen"
+              }
+            ],
+            "insight": "AI 기업의 윤리 원칙과 정부의 국가안보 요구 간의 충돌이 법적·상업적 현실로 구체화되고 있으며, 업계 전반의 AI 거버넌스 기준 확립이 시급해졌습니다."
+          },
+          {
+            "title": "4. 오픈소스 & 하드웨어 혁신",
+            "overview": "IBM의 소형 다국어 음성 모델, Qwen 2.5 Omni의 멀티모달 성과, AI 하드웨어 스타트업 Taalas의 초고속 토큰 처리 등 오픈소스와 하드웨어 분야에서 주목할 만한 성과가 나왔습니다.",
+            "items": [
+              {
+                "label": "IBM Granite 4.0 1B 음성 모델 공개",
+                "desc": "IBM이 엣지 기기 배포용 소형 다국어 자동 음성인식(ASR) 및 양방향 음성 번역(AST) 모델을 Hugging Face에 공개했습니다. (출처: Hugging Face Blog)",
+                "url": "https://huggingface.co/blog/ibm-granite/granite-4-speech"
+              },
+              {
+                "label": "Qwen 2.5 Omni: 최신 Any-to-Any 멀티모달 모델",
+                "desc": "Qwen 2.5 Omni가 혁신적인 'Thinker-Talker' 아키텍처를 적용해 텍스트·이미지·오디오·비디오 간 자유로운 변환과 스트리밍 음성 응답을 지원합니다. (출처: Hugging Face Blog)",
+                "url": "https://huggingface.co/blog/vlms-2025"
+              },
+              {
+                "label": "Taalas 칩: 초당 1만 7천 토큰 처리 달성",
+                "desc": "AI 하드웨어 스타트업 Taalas가 Llama 3.1 가중치를 하드웨어에 내장한 칩으로 초당 약 1만 7천 토큰을 처리하며 Groq(600토큰/초), Cerebras(2천 토큰/초)를 크게 앞질렀습니다. (출처: Ben's Bites)",
+                "url": "https://www.bensbites.com/"
+              },
+              {
+                "label": "조지아공대, AI 기반 폴리머 설계 모델 POLYT5 개발",
+                "desc": "조지아공대 연구팀이 화학 언어 AI 모델을 활용해 100% 정확한 화학 문법의 새로운 폴리머 구조를 생성하는 데 성공했습니다. (출처: Georgia Tech)",
+                "url": "https://coe.gatech.edu/news/2026/03/researchers-create-first-ai-generative-polymer-design"
+              }
+            ],
+            "insight": "AI 하드웨어의 토큰 처리 속도가 기존 대비 수십 배 향상되면서, 실시간 AI 애플리케이션의 상용화 가능성이 크게 높아지고 있습니다."
+          },
+          {
+            "title": "5. 한국 AI 현황: 글로벌 도약과 에이전틱 AI 시대",
+            "overview": "한국이 글로벌 AI 도입 순위에서 7단계 상승했으며, NIA는 2026년을 '에이전틱 AI' 원년으로 규정하는 보고서를 발표했습니다.",
+            "items": [
+              {
+                "label": "한국 AI 도입 순위 25위→18위 도약",
+                "desc": "한국의 AI 활용률이 25.90%에서 30.70%로 상승하며 글로벌 AI 도입 지수에서 7단계 순위 상승을 기록했습니다. (출처: Tech42)",
+                "url": "https://www.tech42.co.kr/%EC%8B%A0%EB%85%84%EA%B8%B0%ED%9A%8D-2026-ai-%EC%9D%B8%EC%82%AC%EC%9D%B4%ED%8A%B8-%E2%91%A1"
+              },
+              {
+                "label": "NIA, 2026년 12대 디지털 트렌드 발표: 에이전틱 AI 원년",
+                "desc": "한국지능정보사회진흥원(NIA)이 2026년을 에이전틱 AI 진입 시점으로 규정하며 AI 인프라 경쟁, 피지컬 AI, 기업 도입 확산을 12대 핵심 트렌드로 선정했습니다. (출처: NIA)",
+                "url": "https://www.nia.or.kr/"
+              },
+              {
+                "label": "애플 시리 대규모 개편: 독립 앱 및 '애플에 물어봐' 기능",
+                "desc": "애플이 6월 8일 WWDC에서 iOS 27과 함께 챗봇 형태의 '애플에 물어봐' 기능을 포함한 시리 전면 개편을 공개할 예정입니다. (출처: Republic World)",
+                "url": "https://www.republicworld.com/tech/apple-siri-overhaul-standalone-app-ask-siri-feature-wwdc-update"
+              }
+            ],
+            "insight": "한국의 AI 도입 가속화와 NIA의 에이전틱 AI 프레임워크는 한국 기업과 정부가 AI를 단순 도구 수준을 넘어 자율 업무 처리 시스템으로 활용하기 시작했음을 보여줍니다."
+          }
+        ],
+        "signals": {
+          "hot": "OpenAI 소라 종료 후 비디오 AI 시장 재편 및 GPT-5.3 개인화 경쟁",
+          "grow": "AI 하드웨어 스타트업(Taalas)의 초고속 토큰 처리 기술로 실시간 AI 상용화 가속",
+          "warn": "AI 기업과 국방부·정부 기관 간의 윤리 원칙 충돌이 대형 계약 손실로 이어질 수 있음",
+          "shift": "AGI 진척도 측정 프레임워크 등장으로 AI 발전 논의가 '성능 벤치마크'에서 '인지 능력 로드맵'으로 전환 중"
+        }
+      },
+      "en": {
+        "title": "AI Community Digest: OpenAI Kills Sora & Launches GPT-5.3, Google Gemini 3 Flash, Anthropic vs. DoD, Korea's AI Rise",
+        "summary": "OpenAI shut down its Sora video generator after just 6 months and released GPT-5.3 Instant with enhanced personalization features, while Google DeepMind launched Gemini 3 Flash achieving frontier performance at low cost. Anthropic faces a conflict with the US Department of Defense over military AI use, and South Korea jumped 7 spots in global AI adoption rankings.",
+        "keywords": [
+          [
+            "🤖",
+            "GPT-5.3 & Gemini 3 Flash",
+            92
+          ],
+          [
+            "🎬",
+            "Sora Shutdown",
+            85
+          ],
+          [
+            "⚔️",
+            "Anthropic vs DoD",
+            83
+          ],
+          [
+            "🇰🇷",
+            "Korea AI Rise",
+            74
+          ],
+          [
+            "⚡",
+            "AI Hardware Breakthrough",
+            70
+          ]
+        ],
+        "sections": [
+          {
+            "title": "1. OpenAI's Strategic Pivot: Sora Shuttered, GPT-5.3 Launched",
+            "overview": "OpenAI ended its Sora video generator service after only six months and debuted GPT-5.3 Instant, allowing users to fine-tune AI personality traits. The company also closed a record-breaking $110B funding round.",
+            "items": [
+              {
+                "label": "Sora Video Generator Officially Discontinued",
+                "desc": "OpenAI shut down Sora despite a $1B deal with Disney, citing competitive pressures in the video AI market and profitability concerns after just 6 months of operation. (Source: The Rundown AI)",
+                "url": "https://www.therundown.ai/p/openai-sora-gets-the-axe"
+              },
+              {
+                "label": "GPT-5.3 Instant: Personalized AI Era Begins",
+                "desc": "OpenAI launched GPT-5.3 Instant, enabling users to customize ChatGPT's enthusiasm, warmth, and emoji usage — setting a new standard for personalized AI experiences. (Source: The Neuron Daily)",
+                "url": "https://www.theneurondaily.com/p/sora-lasted-6-months-disney-s-1b-deal-lasted-3"
+              },
+              {
+                "label": "OpenAI Raises $110B in Historic Funding Round",
+                "desc": "Amazon ($50B), Nvidia ($30B), and SoftBank ($30B) led OpenAI's record $110 billion funding round at a $730 billion pre-money valuation — one of the largest private fundraises in history. (Source: OpenAI)",
+                "url": "https://openai.com/news/"
+              },
+              {
+                "label": "OpenAI Partners with US Department of Energy",
+                "desc": "OpenAI signed an MOU with the U.S. Department of Energy to collaborate on AI and advanced computing, tied to the Genesis Mission and the '2026 Year of Science' initiative. (Source: OpenAI)",
+                "url": "https://openai.com/index/us-department-of-energy-collaboration/"
+              }
+            ],
+            "insight": "OpenAI is pivoting away from video generation toward personalized AI and energy/science infrastructure partnerships, signaling a major strategic realignment."
+          },
+          {
+            "title": "2. Google DeepMind: Gemini 3 Flash & AGI Measurement Framework",
+            "overview": "Google DeepMind launched Gemini 3 Flash, achieving frontier-level benchmark performance at a fraction of the cost, and unveiled a cognitive framework for measuring AGI progress with a $200K Kaggle competition.",
+            "items": [
+              {
+                "label": "Gemini 3 Flash: Frontier Performance at Low Cost",
+                "desc": "Gemini 3 Flash achieved 90.4% on GPQA Diamond and 33.7% on Humanity's Last Exam, delivering frontier-level intelligence optimized for speed and cost-efficiency. (Source: Google DeepMind)",
+                "url": "https://deepmind.google/blog/gemini-3-flash-frontier-intelligence-built-for-speed/"
+              },
+              {
+                "label": "AGI Progress Measurement Cognitive Framework Released",
+                "desc": "Google DeepMind introduced a cognitive science-based framework for tracking AGI progress and launched a $200,000 Kaggle hackathon to design relevant evaluations. (Source: Google DeepMind)",
+                "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/measuring-agi-cognitive-framework/"
+              },
+              {
+                "label": "Google Drops 7 AI Research Papers Including SIMA 2",
+                "desc": "Google DeepMind simultaneously published 7 groundbreaking research papers including SIMA 2 and Nested Learning, advancing multimodal reasoning and multi-agent capabilities. (Source: The Neuron Daily)",
+                "url": "https://www.theneurondaily.com/p/google-just-dropped-7-ai-papers-all-bangers"
+              }
+            ],
+            "insight": "Google is pursuing both model efficiency and AGI roadmap transparency simultaneously, while using competitive prize structures to crowdsource evaluation design."
+          },
+          {
+            "title": "3. Anthropic vs. Pentagon: AI Ethics at a Crossroads",
+            "overview": "Anthropic is refusing US Department of Defense requests for more permissive Claude access, risking a $200M government contract but standing firm on its principles against autonomous weapons and mass surveillance.",
+            "items": [
+              {
+                "label": "Anthropic Refuses DoD's Military AI Expansion Request",
+                "desc": "Anthropic declined the Pentagon's request for relaxed Claude access for autonomous weapons and mass surveillance, potentially costing a $200M government contract while maintaining its AI ethics principles. (Source: Ben's Bites)",
+                "url": "https://www.bensbites.com/p/claude-has-some-conflicts"
+              },
+              {
+                "label": "OpenAI & Google Employees Rally Behind Anthropic",
+                "desc": "Over 30 employees from competitor firms, including Google DeepMind's Chief Scientist Jeff Dean, publicly supported Anthropic's stand against military AI misuse. (Source: The Neuron Daily)",
+                "url": "https://www.theneurondaily.com/p/openai-and-jony-ive-s-ai-device-is-a-pen"
+              },
+              {
+                "label": "OpenAI x Jony Ive: AI Pen 'Gumdrop' in Development",
+                "desc": "OpenAI is co-developing an AI-powered pen with Apple's former design chief Jony Ive, codenamed 'Gumdrop,' capable of transcribing handwritten notes and enabling voice conversations with ChatGPT. (Source: The Neuron Daily)",
+                "url": "https://www.theneurondaily.com/p/openai-and-jony-ive-s-ai-device-is-a-pen"
+              }
+            ],
+            "insight": "The Anthropic-DoD conflict is becoming a landmark case testing whether AI companies can legally refuse government use cases that conflict with their ethical principles."
+          },
+          {
+            "title": "4. Open Source & Hardware Breakthroughs",
+            "overview": "IBM's compact multilingual speech model, Qwen 2.5 Omni's multimodal innovations, and hardware startup Taalas's blazing token-processing speed highlight a wave of open-source and hardware advances.",
+            "items": [
+              {
+                "label": "IBM Granite 4.0 1B Speech Model on Hugging Face",
+                "desc": "IBM released a compact, multilingual speech model for automatic speech recognition and bidirectional speech translation, designed for edge deployment. (Source: Hugging Face Blog)",
+                "url": "https://huggingface.co/blog/ibm-granite/granite-4-speech"
+              },
+              {
+                "label": "Qwen 2.5 Omni: State-of-the-Art Any-to-Any Model",
+                "desc": "Qwen 2.5 Omni's novel 'Thinker-Talker' architecture enables seamless text, image, audio, and video processing with natural streaming speech responses. (Source: Hugging Face Blog)",
+                "url": "https://huggingface.co/blog/vlms-2025"
+              },
+              {
+                "label": "Taalas Chip Achieves 17,000 Tokens/Second Output",
+                "desc": "Startup Taalas built a chip with Llama 3.1 weights embedded in hardware, hitting ~17,000 tokens/second — far outpacing Groq (~600/sec) and Cerebras (~2,000/sec). (Source: Ben's Bites)",
+                "url": "https://www.bensbites.com/"
+              },
+              {
+                "label": "Georgia Tech Develops POLYT5 for AI Polymer Design",
+                "desc": "Researchers created chemical language AI models that generate novel polymer structures with 100% chemical grammar accuracy, opening new doors for materials science. (Source: Georgia Tech)",
+                "url": "https://coe.gatech.edu/news/2026/03/researchers-create-first-ai-generative-polymer-design"
+              }
+            ],
+            "insight": "AI inference hardware is advancing at exponential speeds, with Taalas's chip potentially enabling real-time AI applications previously considered computationally infeasible."
+          },
+          {
+            "title": "5. South Korea's AI Surge & Agentic AI Era",
+            "overview": "South Korea climbed 7 spots in global AI adoption rankings, while NIA declared 2026 the beginning of the 'Agentic AI' era with 12 key digital trends shaping the nation's AI strategy.",
+            "items": [
+              {
+                "label": "South Korea Jumps from 25th to 18th in AI Adoption",
+                "desc": "South Korea's AI adoption rate climbed from 25.90% to 30.70%, driving a 7-place jump in global AI adoption rankings and signaling strong domestic expansion momentum. (Source: Tech42)",
+                "url": "https://www.tech42.co.kr/%EC%8B%A0%EB%85%84%EA%B8%B0%ED%9A%8D-2026-ai-%EC%9D%B8%EC%82%AC%EC%9D%B4%ED%8A%B8-%E2%91%A1"
+              },
+              {
+                "label": "NIA Declares 2026 as 'Agentic AI' Inflection Point",
+                "desc": "South Korea's National Information Society Agency (NIA) released its 12 digital trends for 2026, naming AI infrastructure competition, physical AI, and enterprise adoption as core drivers. (Source: NIA)",
+                "url": "https://www.nia.or.kr/"
+              },
+              {
+                "label": "Apple Plans Major Siri Overhaul at WWDC June 8",
+                "desc": "Apple is testing a redesigned Siri with a standalone app and new 'Ask Siri' chatbot feature debuting at WWDC alongside iOS 27 and macOS 27. (Source: Republic World)",
+                "url": "https://www.republicworld.com/tech/apple-siri-overhaul-standalone-app-ask-siri-feature-wwdc-update"
+              }
+            ],
+            "insight": "Korea's rapid AI adoption and NIA's agentic AI framework signal that Korean enterprises and government are moving beyond AI as a tool into fully autonomous workflow systems."
+          }
+        ],
+        "signals": {
+          "hot": "OpenAI's Sora shutdown sparks video AI market reshuffling while GPT-5.3 personalization heats up",
+          "grow": "AI hardware inference speeds (Taalas: 17K tokens/sec) are enabling commercially viable real-time AI applications",
+          "warn": "AI companies refusing government/military contracts risk losing major revenue but set important ethical precedents",
+          "shift": "AGI measurement frameworks signal a move from benchmark performance races to cognitive capability roadmaps"
+        }
+      }
+    }
+  },
+  {
+    "date": "2026-03-27",
+    "translations": {
+      "ko": {
         "title": "AI 커뮤니티 다이제스트: 트럼프 AI 입법 프레임워크, Anthropic 소송, Claude 4.6 & Gemini 3.1 출시",
         "summary": "트럼프 행정부가 주(州) AI 법률을 선점하는 국가 AI 입법 프레임워크를 발표했고, Anthropic은 국방부를 상대로 한 소송에서 OpenAI·Google 직원들의 지지를 받고 있습니다. Anthropic과 Google DeepMind는 각각 Claude Sonnet 4.6·Opus 4.6과 Gemini 3.1 Pro를 출시하며 100만 토큰 컨텍스트 시대를 열었습니다.",
         "keywords": [
