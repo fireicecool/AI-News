@@ -1,5 +1,328 @@
 [
   {
+    "date": "2026-03-28",
+    "translations": {
+      "ko": {
+        "title": "AI 커뮤니티 다이제스트: Reflection AI 25억 달러 유치·Arm 첫 자체 칩 출시·구글 Gemini 3 Deep Think·한국 AI 정책 강화",
+        "summary": "Reflection AI가 엔비디아 지원 하에 25억 달러를 유치하며 기업가치 250억 달러를 기록했고, Arm이 35년 라이선스 전문기업에서 탈피해 첫 자체 칩 'AGI CPU'를 출하했습니다. 구글 DeepMind는 과학·수학 분야 특화 Gemini Deep Think를 업그레이드했으며, 한국 정부는 AI 기본법 시행과 8천억 원 예산 투입으로 소버린 AI 확보에 박차를 가하고 있습니다.",
+        "keywords": [
+          [
+            "💰",
+            "Reflection AI 메가 펀딩",
+            92
+          ],
+          [
+            "🖥️",
+            "Arm 첫 자체 칩",
+            88
+          ],
+          [
+            "🔬",
+            "Gemini Deep Think 과학 AI",
+            84
+          ],
+          [
+            "🇰🇷",
+            "한국 AI 정책·예산",
+            78
+          ],
+          [
+            "🤖",
+            "AI 에이전트 대중화",
+            72
+          ]
+        ],
+        "sections": [
+          {
+            "title": "1. 빅 펀딩과 하드웨어 혁신: AI 인프라 대전환",
+            "overview": "AI 인프라 투자가 새로운 국면에 접어들었습니다. Reflection AI는 '소버린 AI' 테제로 25억 달러를 유치했고, Arm은 35년 라이선스 비즈니스를 넘어 첫 자체 칩을 세상에 내놓았습니다. AI 컴퓨팅 권력 구도가 재편되고 있습니다.",
+            "items": [
+              {
+                "label": "Reflection AI, 25억 달러 유치·기업가치 250억 달러",
+                "desc": "딥마인드 출신 창업자들이 이끄는 Reflection AI가 엔비디아 주도 25억 달러 투자 유치를 완료하며 기업가치가 3배 뛴 250억 달러를 기록했습니다. '동맹국 대상 오픈소스 모델' 소버린 AI 전략이 핵심 thesis입니다. (출처: The Rundown AI)",
+                "url": "https://www.therundown.ai/p/inside-the-thinking-machines-meltdown"
+              },
+              {
+                "label": "Arm, 35년 만에 첫 자체 칩 'AGI CPU' 출하",
+                "desc": "Arm이 라이선스 전문기업에서 탈피, 메타와 공동 개발한 'AGI CPU'를 출하했습니다. x86 대비 랙당 성능 2배를 자랑하며 OpenAI·Cloudflare가 이미 주문했고, 2031년까지 연매출 150억 달러를 목표로 합니다. (출처: crescendo.ai)",
+                "url": "https://www.crescendo.ai/news/latest-ai-news-and-updates"
+              },
+              {
+                "label": "엔비디아 GTC 2026: 물리적 AI와 엣지 컴퓨팅",
+                "desc": "3월 16일 산호세에서 열린 엔비디아 GTC 2026에서 물리적 AI, AI 팩토리, 엣지 컴퓨팅이 핵심 주제로 다뤄졌습니다. 산업 현장 자동화와 로봇 AI 생태계 확장이 가속화되고 있습니다. (출처: crescendo.ai)",
+                "url": "https://www.crescendo.ai/news/latest-ai-news-and-updates"
+              }
+            ],
+            "insight": "AI 경쟁이 모델 성능을 넘어 하드웨어와 소버린 인프라 확보 싸움으로 확장되고 있으며, 국가 단위 AI 독립성 확보가 핵심 투자 테제로 부상했습니다."
+          },
+          {
+            "title": "2. 구글 DeepMind: 과학 AI와 세계 모델의 진화",
+            "overview": "구글 DeepMind가 수학·과학 난제 해결에 특화된 Gemini Deep Think를 업그레이드하고, 대화형 게임 세계를 생성하는 Genie 3를 공개했습니다. AI가 순수 과학 연구의 파트너로 자리매김하고 있습니다.",
+            "items": [
+              {
+                "label": "Gemini Deep Think, 올림피아드급 수학·과학 문제 해결",
+                "desc": "구글 DeepMind가 Gemini Deep Think의 최신 업그레이드를 발표했습니다. 국제수학올림피아드(IMO) 금메달 수준을 달성했으며, 물리·화학 올림피아드에서도 금메달급 성과를 기록했습니다. Erdős 미해결 문제 4건을 자율적으로 풀어내기도 했습니다. (출처: Google DeepMind)",
+                "url": "https://deepmind.google/blog/accelerating-mathematical-and-scientific-discovery-with-gemini-deep-think/"
+              },
+              {
+                "label": "Genie 3: 텍스트·이미지로 인터랙티브 게임 세계 생성",
+                "desc": "구글 DeepMind가 텍스트 프롬프트나 이미지 한 장으로 플레이 가능한 게임 세계를 무한 생성하는 Genie 3 접근권을 공개했습니다. 에이전트 훈련 환경 생성에도 활용 가능합니다. (출처: Google DeepMind)",
+                "url": "https://deepmind.google/models/genie/"
+              },
+              {
+                "label": "DeepMind, AI 유해 조작 방지 연구 발표",
+                "desc": "3월 26일 구글 DeepMind가 AI가 인간의 사고와 행동을 부정적·기만적으로 바꾸는 유해 조작 가능성을 분석한 연구를 발표하며 AI 안전 논의를 심화시켰습니다. (출처: Google DeepMind)",
+                "url": "https://deepmind.google/blog/protecting-people-from-harmful-manipulation/"
+              }
+            ],
+            "insight": "구글 DeepMind는 과학적 발견 가속화라는 명확한 사회적 임팩트를 전면에 내세우며 단순한 벤치마크 경쟁을 넘어선 AI 연구의 새로운 방향을 제시하고 있습니다."
+          },
+          {
+            "title": "3. 오픈소스와 모델 생태계 확장",
+            "overview": "Hugging Face가 오픈소스 현황 봄 2026 보고서를 발표하며 생태계 현황을 점검했고, 한국 AI 모델 3개가 허깅페이스 트렌드에 동시에 오르며 한국 AI 기술력을 과시했습니다. GPT-5.4의 기업용 확장도 주목받고 있습니다.",
+            "items": [
+              {
+                "label": "Hugging Face '오픈소스 현황 봄 2026' 보고서 발표",
+                "desc": "허깅페이스가 200만 개 이상의 모델, 50만 개 이상의 데이터셋, 약 100만 개 데모 앱을 보유한 오픈소스 AI 생태계 현황을 담은 보고서를 공개했습니다. (출처: Hugging Face Blog)",
+                "url": "https://huggingface.co/blog/huggingface/state-of-os-hf-spring-2026"
+              },
+              {
+                "label": "OpenAI GPT-5.4, 100만 토큰 컨텍스트로 기업 시장 공략",
+                "desc": "3월 5일 출시된 GPT-5.4가 최대 100만 토큰 컨텍스트와 네이티브 컴퓨터 사용 기능을 탑재하고 기업 시장을 공략 중입니다. OSWorld-V 벤치마크에서 인간 기준선(72.4%)을 넘는 75%를 달성했습니다. (출처: TechCrunch)",
+                "url": "https://techcrunch.com/2026/03/05/openai-launches-gpt-5-4-with-pro-and-thinking-versions/"
+              },
+              {
+                "label": "Red Hat AI, 허깅페이스 3월 검증 모델 컬렉션 공개",
+                "desc": "Red Hat AI가 엣지 플랫폼용 AI 에이전트에 특화된 3월 검증 모델 컬렉션을 허깅페이스에 공개했습니다. AI 게임 NPC, 로컬 음성 비서, IoT 자동화 등에 활용 가능합니다. (출처: Hugging Face)",
+                "url": "https://huggingface.co/collections/RedHatAI/red-hat-ai-validated-models-march-2026"
+              }
+            ],
+            "insight": "오픈소스 AI 생태계가 '다운로드 수' 경쟁을 넘어 실제 산업 배포와 검증 가능한 성능으로 이동하고 있으며, 한국을 비롯한 비서방권 국가들의 모델 경쟁력이 빠르게 성장하고 있습니다."
+          },
+          {
+            "title": "4. AI 에이전트의 상용화와 소비자 제품",
+            "overview": "AI 에이전트가 기업 현장과 소비자 서비스 모두에서 본격 배포 단계에 진입했습니다. 구글 Search Live 다국어 지원 확대, Reddit의 AI 계정 레이블링 등 AI와 인간의 공존 방식이 구체화되고 있습니다.",
+            "items": [
+              {
+                "label": "구글 Search Live, 수십 개 언어로 다국어 지원 확대",
+                "desc": "구글이 음성·카메라 기반 AI 검색 기능 'Search Live'를 Gemini 3.1 Flash Live 모델 기반으로 수십 개 언어로 확대했습니다. 더 빠르고 자연스러운 대화 경험을 제공합니다. (출처: AI Blog Hub)",
+                "url": "https://trends.blogaihub.com/2026/03/3-28-ai-ai-search-live.html"
+              },
+              {
+                "label": "Reddit, AI 자동화 계정에 '[App]' 레이블 부착 발표",
+                "desc": "Reddit CEO 스티브 허프만이 3월 25일 허용된 방식으로 자동화를 사용하는 계정에 '[App]' 레이블을 부착해 인간과 AI 계정을 명확히 구분하겠다고 발표했습니다. (출처: TechScience Today)",
+                "url": "https://www.techsciencetoday.com/tech/reddit-revealed-how-it-plans-to-deal-with-its-growing-ai-content-problem/18621"
+              },
+              {
+                "label": "가트너: 2026년 기업 앱의 40%가 AI 에이전트 활용 예측",
+                "desc": "가트너가 2026년까지 기업 애플리케이션의 40%가 작업별 특화 AI 에이전트를 활용할 것이라고 예측했습니다. 2025년 5% 미만에서 급격한 도약입니다. (출처: crescendo.ai)",
+                "url": "https://www.crescendo.ai/news/latest-ai-news-and-updates"
+              },
+              {
+                "label": "ChatGPT 유료 사용자 5천만 명 돌파",
+                "desc": "ChatGPT 유료 구독자 수가 5천만 명을 돌파하며 소비자 AI 시장의 지배적 플랫폼 지위를 굳혔습니다. GPT-5.4 mini·nano 모델이 무료 사용자에게도 제공될 예정입니다. (출처: Ben's Bites)",
+                "url": "https://www.bensbites.com/p/something-big-is-happening"
+              }
+            ],
+            "insight": "AI 에이전트의 '실험에서 배포로'의 전환이 현실화되고 있으며, AI와 인간 계정을 구분하는 플랫폼 정책이 새로운 디지털 사회 규범으로 자리잡고 있습니다."
+          },
+          {
+            "title": "5. 한국 AI 정책과 산업 동향",
+            "overview": "한국 정부가 AI 기본법 시행과 함께 8천억 원 규모의 AI 예산을 투입하고, 독자 파운데이션 모델 개발 1차 발표회를 앞두고 있습니다. 기업 현장에서는 에이전트 AI가 새로운 성장 엔진으로 주목받고 있습니다.",
+            "items": [
+              {
+                "label": "중기부, 2026년 AI 예산 약 8천억 원 투입",
+                "desc": "한국 중소벤처기업부가 AI·딥테크 투자, 제조 AX, AI 스타트업 육성 등에 총 7,992억 원을 투입합니다. AI를 중소기업 디지털 전환의 핵심 레버로 삼겠다는 전략입니다. (출처: 대한민국 정책브리핑)",
+                "url": "https://www.korea.kr/multi/visualNewsView.do?newsId=148957419"
+              },
+              {
+                "label": "한국 독자 AI 파운데이션 모델 1차 평가 30일 개최",
+                "desc": "해외 초거대 AI 의존도를 낮추기 위한 '독자 인공지능 파운데이션 모델 프로젝트' 1차 발표회가 3월 30일 개최됩니다. NC와 네이버가 1차 평가에서 탈락, 추가 1팀 모집이 진행 중입니다. (출처: AI타임스)",
+                "url": "https://www.aitimes.com/news/articleView.html?idxno=205618"
+              },
+              {
+                "label": "AI 기본법 시행: 기업, 책임·안전·투명성 동시 요구",
+                "desc": "한국이 'AI 발전과 신뢰 기반 조성에 관한 기본법'을 시행하면서 기업들은 AI 확장과 동시에 책임·안전·투명성 체계 구축을 병행해야 하는 환경에 놓였습니다. (출처: 테크42)",
+                "url": "https://www.tech42.co.kr/%EC%8B%A0%EB%85%84%EA%B8%B0%ED%9A%8D-2026-ai-%EC%9D%B8%EC%82%AC%EC%9D%B4%ED%8A%B8-%E2%91%A5-%ED%95%9C%EA%B5%AD%EC%9D%98-2026-%EB%8C%80%EC%9D%91-%EC%A0%84%EB%9E%B5-ai%EB%A5%BC-%EC%82%B0/"
+              },
+              {
+                "label": "오픈AI 과학 책임자 \"AI, 과학 발전 20년 앞당길 것\"",
+                "desc": "오픈AI 과학 책임자가 'AI가 인류의 난제 해결을 시작했으며 과학 발전을 20년 앞당길 것'이라고 전망했습니다. 의료·기후·에너지 분야 협력이 구체화되고 있습니다. (출처: AI타임스)",
+                "url": "https://www.aitimes.com/news/articleView.html?idxno=207437"
+              }
+            ],
+            "insight": "한국이 AI 기본법 시행과 대규모 예산 투입을 통해 '수입 AI 의존'에서 '소버린 AI 확보'로의 전환을 본격화하고 있으며, 기업들의 에이전트 AI 도입도 빠르게 가속화되고 있습니다."
+          }
+        ],
+        "signals": {
+          "hot": "소버린 AI — Reflection AI 25억 달러 유치와 각국 AI 독립 경쟁 가열",
+          "grow": "AI 에이전트의 실제 기업 배포 — 실험 단계를 넘어 매출 창출 단계로 진입",
+          "warn": "AI 칩 부족으로 2026년 스마트폰·PC 가격 6~8% 급등 우려",
+          "shift": "AI가 인간 벤치마크를 넘어서기 시작 — GPT-5.4가 데스크탑 업무에서 인간 수준 초과"
+        }
+      },
+      "en": {
+        "title": "AI Community Digest: Reflection AI's $2.5B Raise, Arm's First Chip, Gemini Deep Think for Science & Korea's AI Push",
+        "summary": "Reflection AI, a DeepMind spinoff, closed a Nvidia-backed $2.5B raise tripling its valuation to $25B on the sovereign AI thesis. Arm shipped its first-ever chip after 35 years as a pure licensor, while Google DeepMind upgraded Gemini Deep Think to solve Olympiad-level math and science problems. Korea accelerated its own AI foundation model race alongside a $800M government AI budget.",
+        "keywords": [
+          [
+            "💰",
+            "Reflection AI Mega-Funding",
+            92
+          ],
+          [
+            "🖥️",
+            "Arm First Chip",
+            88
+          ],
+          [
+            "🔬",
+            "Gemini Deep Think Science",
+            84
+          ],
+          [
+            "🇰🇷",
+            "Korea Sovereign AI",
+            78
+          ],
+          [
+            "🤖",
+            "AI Agent Mainstream",
+            72
+          ]
+        ],
+        "sections": [
+          {
+            "title": "1. Big Funding & Hardware Disruption: AI Infrastructure Reshaping",
+            "overview": "AI infrastructure investment has entered a new phase. Reflection AI closed the sovereign AI megadeal while Arm broke from 35 years of pure licensing to ship its first chip. The power structure of AI computing is being redrawn.",
+            "items": [
+              {
+                "label": "Reflection AI raises $2.5B, valued at $25B",
+                "desc": "DeepMind-spinoff Reflection AI closed a Nvidia-backed $2.5B round, tripling its valuation to $25B in under two years with minimal revenue. The 'sovereign AI' thesis — open-source models for allied nations — is now a $2.5B bet. (Source: The Rundown AI)",
+                "url": "https://www.therundown.ai/p/inside-the-thinking-machines-meltdown"
+              },
+              {
+                "label": "Arm ships its first-ever chip: the AGI CPU",
+                "desc": "Arm ended 35 years of pure IP licensing by shipping its AGI CPU, co-developed with Meta. The chip claims 2x performance-per-rack over x86, has already been ordered by OpenAI and Cloudflare, and Arm projects $15B in annual chip revenue by 2031. (Source: crescendo.ai)",
+                "url": "https://www.crescendo.ai/news/latest-ai-news-and-updates"
+              },
+              {
+                "label": "Nvidia GTC 2026: Physical AI and AI Factories Take Center Stage",
+                "desc": "Nvidia's GTC 2026 conference opened March 16 in San Jose, spotlighting physical AI, AI factories, and edge computing. The event highlighted acceleration of industrial automation and the expanding robotics AI ecosystem. (Source: crescendo.ai)",
+                "url": "https://www.crescendo.ai/news/latest-ai-news-and-updates"
+              }
+            ],
+            "insight": "AI competition has moved beyond model performance to a battle for hardware sovereignty and infrastructure ownership, with nation-level AI independence now a $2.5B investable thesis."
+          },
+          {
+            "title": "2. Google DeepMind: Science AI & World Models Advance",
+            "overview": "Google DeepMind upgraded Gemini Deep Think to solve competition-level math and science problems, and opened access to Genie 3, a world model that generates interactive game environments. AI is positioning as a peer in pure scientific research.",
+            "items": [
+              {
+                "label": "Gemini Deep Think achieves Olympiad gold-medal level",
+                "desc": "Google DeepMind announced a major upgrade to Gemini Deep Think, achieving gold-medal performance at the International Mathematics Olympiad (IMO) and the 2025 Physics and Chemistry Olympiads. The model autonomously solved four open problems from the Erdős database. (Source: Google DeepMind)",
+                "url": "https://deepmind.google/blog/accelerating-mathematical-and-scientific-discovery-with-gemini-deep-think/"
+              },
+              {
+                "label": "Genie 3: Generate infinite interactive game worlds from text",
+                "desc": "Google DeepMind opened access to Genie 3, an AI that generates playable interactive game worlds from a single text prompt or image, also usable for training agent environments. (Source: Google DeepMind)",
+                "url": "https://deepmind.google/models/genie/"
+              },
+              {
+                "label": "DeepMind publishes research on AI harmful manipulation",
+                "desc": "On March 26, Google DeepMind released research examining how AI could be misused to alter human thought and behavior in negative and deceptive ways, deepening the AI safety discourse. (Source: Google DeepMind)",
+                "url": "https://deepmind.google/blog/protecting-people-from-harmful-manipulation/"
+              }
+            ],
+            "insight": "Google DeepMind is reframing the AI narrative around tangible scientific impact — Olympiad-level reasoning and open-problem solving — rather than generic benchmark leaderboards."
+          },
+          {
+            "title": "3. Open Source & Model Ecosystem Expansion",
+            "overview": "Hugging Face released its State of Open Source Spring 2026 report while Korean AI models trended simultaneously on the Hub. GPT-5.4's enterprise rollout and Red Hat's validated model collection reflect a maturing deployment ecosystem.",
+            "items": [
+              {
+                "label": "Hugging Face publishes 'State of Open Source: Spring 2026'",
+                "desc": "The Hugging Face Blog released its Spring 2026 open-source report covering its 2M+ models, 500K+ datasets, and ~1M demo apps, highlighting rapid ecosystem growth and geographic diversification. (Source: Hugging Face Blog)",
+                "url": "https://huggingface.co/blog/huggingface/state-of-os-hf-spring-2026"
+              },
+              {
+                "label": "OpenAI GPT-5.4 targets enterprise with 1M-token context",
+                "desc": "Launched March 5, GPT-5.4 supports up to 1 million tokens of context and native computer-use, scoring 75% on the OSWorld-V benchmark, edging past the human baseline of 72.4% for desktop productivity tasks. (Source: TechCrunch)",
+                "url": "https://techcrunch.com/2026/03/05/openai-launches-gpt-5-4-with-pro-and-thinking-versions/"
+              },
+              {
+                "label": "Red Hat AI releases March 2026 validated model collection on HuggingFace",
+                "desc": "Red Hat AI published its March 2026 validated models collection on Hugging Face, targeting agentic AI for edge platforms including AI gaming NPCs, local voice assistants, and IoT automation. (Source: Hugging Face)",
+                "url": "https://huggingface.co/collections/RedHatAI/red-hat-ai-validated-models-march-2026"
+              }
+            ],
+            "insight": "Open-source AI is maturing beyond download counts toward verified production deployments, with South Korean models rising as a credible tier-one competitive force on global platforms."
+          },
+          {
+            "title": "4. AI Agents Go Mainstream: Products & Platform Policies",
+            "overview": "AI agents are entering full commercial deployment across enterprise and consumer products. Google's Search Live multilingual expansion, Reddit's AI account labeling, and ChatGPT's 50M paying users illustrate how AI integration is becoming infrastructure.",
+            "items": [
+              {
+                "label": "Google Search Live expands to dozens of languages",
+                "desc": "Google expanded its voice and camera-based AI search feature 'Search Live,' powered by Gemini 3.1 Flash Live, to dozens of languages for faster, more natural conversational search. (Source: AI Blog Hub)",
+                "url": "https://trends.blogaihub.com/2026/03/3-28-ai-ai-search-live.html"
+              },
+              {
+                "label": "Reddit to label AI automation accounts with '[App]' tag",
+                "desc": "Reddit CEO Steve Huffman announced on March 25 that accounts using automation in permitted ways will receive an '[App]' label, making AI-human account distinction a platform-level standard. (Source: TechScience Today)",
+                "url": "https://www.techsciencetoday.com/tech/reddit-revealed-how-it-plans-to-deal-with-its-growing-ai-content-problem/18621"
+              },
+              {
+                "label": "Gartner: 40% of enterprise apps will use AI agents by 2026",
+                "desc": "Gartner predicts that 40% of enterprise applications will incorporate task-specific AI agents by 2026, a dramatic leap from less than 5% in 2025, confirming the agent adoption inflection point. (Source: crescendo.ai)",
+                "url": "https://www.crescendo.ai/news/latest-ai-news-and-updates"
+              },
+              {
+                "label": "ChatGPT surpasses 50M paying subscribers",
+                "desc": "ChatGPT crossed 50 million paying subscribers, cementing its dominant position in consumer AI. GPT-5.4 mini and nano models are set to extend access to free users. (Source: Ben's Bites)",
+                "url": "https://www.bensbites.com/p/something-big-is-happening"
+              }
+            ],
+            "insight": "The 'experiment-to-deployment' transition for AI agents is now real. Platform-level AI labeling policies are emerging as a new social norm, signaling that human-AI coexistence requires structural governance rather than just norms."
+          },
+          {
+            "title": "5. Korea's AI Policy & Industry Momentum",
+            "overview": "South Korea's government activated its AI Basic Law and committed $800M in AI budget, while the sovereign AI foundation model competition heats up ahead of a March 30 evaluation. Korean enterprises are rapidly adopting agentic AI as the new growth engine.",
+            "items": [
+              {
+                "label": "Korea MSIT deploys $800M AI budget for 2026",
+                "desc": "Korea's Ministry of SMEs and Startups allocated approximately 799.2 billion KRW (~$800M) to AI and deep-tech investment, manufacturing digital transformation, and AI startup cultivation. (Source: Korean Policy Briefing)",
+                "url": "https://www.korea.kr/multi/visualNewsView.do?newsId=148957419"
+              },
+              {
+                "label": "Korea's sovereign AI foundation model competition kicks off March 30",
+                "desc": "Korea's first-round evaluation of its domestic AI Foundation Model Project will be held March 30, aiming to reduce dependence on foreign large models. NC and Naver were eliminated in the first screening; one additional team spot remains open. (Source: AI Times Korea)",
+                "url": "https://www.aitimes.com/news/articleView.html?idxno=205618"
+              },
+              {
+                "label": "Korea AI Basic Law in effect: enterprises must balance expansion with accountability",
+                "desc": "With the 'Basic Act on AI Development and Trust-Based Creation' now in force, Korean companies must simultaneously scale AI adoption while building formal responsibility, safety, and transparency frameworks. (Source: Tech42)",
+                "url": "https://www.tech42.co.kr/%EC%8B%A0%EB%85%84%EA%B8%B0%ED%9A%8D-2026-ai-%EC%9D%B8%EC%82%AC%EC%9D%B4%ED%8A%B8-%E2%91%A5-%ED%95%9C%EA%B5%AD%EC%9D%98-2026-%EB%8C%80%EC%9D%91-%EC%A0%84%EB%9E%B5-ai%EB%A5%BC-%EC%82%B0/"
+              },
+              {
+                "label": "OpenAI Chief Science Officer: AI will accelerate science by 20 years",
+                "desc": "OpenAI's Chief Science Officer stated that AI has started solving previously unsolvable problems and is on track to accelerate scientific progress by 20 years, with healthcare, climate, and energy applications materializing. (Source: AI Times Korea)",
+                "url": "https://www.aitimes.com/news/articleView.html?idxno=207437"
+              }
+            ],
+            "insight": "South Korea is transitioning from 'AI importer' to 'sovereign AI developer' through legislation and major budget commitment, with enterprise agentic AI adoption accelerating alongside the regulatory maturation."
+          }
+        ],
+        "signals": {
+          "hot": "Sovereign AI — Reflection AI's $2.5B raise and nations racing to own their AI stack",
+          "grow": "Enterprise AI agent deployment — past the experiment phase, now generating real revenue",
+          "warn": "AI chip shortages set to push smartphone and PC prices up 7-8% through 2026",
+          "shift": "AI crosses the human baseline — GPT-5.4 surpasses human performance on desktop productivity benchmarks"
+        }
+      }
+    }
+  },
+  {
     "date": "2026-03-27",
     "translations": {
       "ko": {
