@@ -1,5 +1,352 @@
 [
   {
+    "date": "2026-04-02",
+    "translations": {
+      "ko": {
+        "title": "AI 커뮤니티 다이제스트: 오픈AI 대규모 투자, AI 에이전트 실용화, 한국 규제 정착",
+        "summary": "오픈AI가 1,220억 달러 규모의 대규모 펀딩을 완료하며 AI 시장의 판도를 바꾸고 있습니다. 동시에 AI 에이전트가 이론을 넘어 실제 업무 환경으로 진입하고 있으며, 한국의 AI 기본법 시행으로 규제 기반이 마련되고 있습니다.",
+        "keywords": [
+          [
+            "🚀",
+            "오픈AI 대규모 투자",
+            92
+          ],
+          [
+            "🤖",
+            "AI 에이전트 실용화",
+            88
+          ],
+          [
+            "⚖️",
+            "한국 AI 기본법",
+            85
+          ],
+          [
+            "🧠",
+            "구글 DeepMind 혁신",
+            82
+          ],
+          [
+            "💰",
+            "글로벌 AI 시장 성장",
+            78
+          ]
+        ],
+        "sections": [
+          {
+            "title": "1. 오픈AI의 초대형 펀딩 라운드",
+            "overview": "오픈AI가 1,220억 달러 규모의 펀딩을 완료하며 시장 가치 8,520억 달러에 도달했습니다. 아마존, 엔비디아, 소프트뱅크 등 글로벌 주요 기업들이 대규모 투자에 참여하고 있으며, 회사는 월 20억 달러의 매출을 기록하고 있습니다.",
+            "items": [
+              {
+                "label": "오픈AI 1,220억 달러 펀딩 완료",
+                "desc": "아마존이 500억 달러, 엔비디아와 소프트뱅크가 각 300억 달러를 투자했으며, 오픈AI는 멀티클라우드 인프라와 통합 AI 슈퍼앱 개발에 자금을 활용할 계획입니다. (출처: AI The Insider)",
+                "url": "https://theaiinsider.tech/2026/04/01/openai-raises-122b-in-funding-round-with-853b-valuation-to-build-global-ai-infrasture-superapp/"
+              },
+              {
+                "label": "월 20억 달러 매출 달성",
+                "desc": "ChatGPT는 주간 활성 사용자 9억 명을 초과했으며, 엔터프라이즈 고객이 매출의 40% 이상을 차지하고 있습니다. (출처: Bloomberg)",
+                "url": "https://www.bloomberg.com/news/articles/2026-03-31/openai-valued-at-852-billion-after-completing-122-billion-round"
+              },
+              {
+                "label": "AI 슈퍼앱 개발 진행",
+                "desc": "오픈AI는 ChatGPT, Codex, 에이전트 기능을 통합한 AI 슈퍼앱 개발에 나섰으며, 마이크로소프트, 오라클, AWS 등 다양한 클라우드 파트너와 협력 중입니다. (출처: Blog Mean CEO)",
+                "url": "https://blog.mean.ceo/open-ai-news-april-2026/"
+              }
+            ],
+            "insight": "오픈AI의 거대 자금 조달은 AI가 대규모 인프라 투자를 필요로 하는 성숙한 산업으로 진입했음을 보여주며, 기업용 AI의 실용화가 가속화되고 있습니다."
+          },
+          {
+            "title": "2. AI 에이전트의 실제 업무 현장 진입",
+            "overview": "AI 에이전트가 개별 생산성 도구를 넘어 복합적인 워크플로우를 자동으로 관리하는 단계로 진전했습니다. 멀티 에이전트 시스템의 도입이 4개월 만에 327% 증가했으며, 실제 업무 현장에 빠르게 확산되고 있습니다.",
+            "items": [
+              {
+                "label": "에이전트 워크플로우 실용화",
+                "desc": "2026년은 AI 에이전트가 시연에서 벗어나 일상 업무에 적용되는 해입니다. Anthropic의 Model Context Protocol(MCP)이 'AI용 USB-C'로서 표준으로 자리 잡고 있으며, 오픈AI와 마이크로소프트가 공식 지지를 표명했습니다. (출처: NIST)",
+                "url": "https://www.nist.gov/news-events/news/2026/02/announcing-ai-agent-standards-initiative-interoperable-and-secure"
+              },
+              {
+                "label": "멀티 에이전트 시스템 327% 성장",
+                "desc": "기업들이 단순 챗봇에서 전문화된 다중 에이전트 팀으로 전환하고 있으며, 팀과 워크플로우 조율 기능이 확대되고 있습니다. (출처: Databricks)",
+                "url": "https://www.databricks.com/resources/ebook/state-of-ai-agents"
+              },
+              {
+                "label": "AI 과학자 에이전트 등장",
+                "desc": "Sakana AI의 AI Scientist는 연구 논문 작성부터 피어 리뷰까지 과학자의 거의 모든 역할을 자동으로 수행합니다. (출처: Blog Mean CEO)",
+                "url": "https://blog.mean.ceo/ai-agents-news-april-2026/"
+              }
+            ],
+            "insight": "AI 에이전트가 실제 비즈니스 워크플로우를 관리하기 시작했으며, 이는 단순 자동화를 넘어 조직의 의사결정 구조 변화까지 초래할 것으로 전망됩니다."
+          },
+          {
+            "title": "3. 한국의 AI 기본법 시행 및 정책 강화",
+            "overview": "대한민국이 2026년 1월 22일 AI 기본법을 전면 시행하며 AI 규제의 국제 표준을 제시하고 있습니다. 정부는 10조 1,000억 원의 AI 예산을 편성했으며, 한국의 AI 확산 지수가 크게 상승하고 있습니다.",
+            "items": [
+              {
+                "label": "AI 기본법 전면 시행",
+                "desc": "한국이 세계에서 가장 빨리 AI 기본법을 전면 적용하는 국가가 되었습니다. 고영향 AI에 대한 특별 책무, 투명성 확보, 안전성 평가 의무가 강화됩니다. (출처: AI Times Korea)",
+                "url": "https://www.aitimes.kr/news/articleView.html?idxno=38806"
+              },
+              {
+                "label": "정부 지원 및 과태료 유예",
+                "desc": "2026년 정부 AI 예산이 10조 1,000억 원에 달하며, 법 시행 후 최소 1년 이상 과태료 부과를 유예하고 컨설팅에 집중할 방침입니다. (출처: SKT Enterprise)",
+                "url": "https://www.sktenterprise.com/bizInsight/blogDetail/skt/15332"
+              },
+              {
+                "label": "국내 AI 확산 급증",
+                "desc": "한국이 AI 확산 순위에서 25위에서 18위로 상승했으며, 이용률이 25.90%에서 30.70%로 4.80%포인트 급증했습니다. (출처: Tech42)",
+                "url": "https://www.tech42.co.kr/%EC%8B%A0%EB%85%84%EA%B8%B0%ED%9A%8D-2026-ai-%EC%9D%B8%EC%82%AC%EC%9D%B4%ED%8A%B8-%E2%91%A1-%ED%95%9C%EA%B5%AD%EC%9D%98-%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5-%ED%98%81%EB%AA%85-%EB%B0%98%EB%85%84/"
+              }
+            ],
+            "insight": "한국의 AI 기본법은 산업 진흥과 안전 규제의 균형을 맞춘 국제 표준 모델로 평가받고 있으며, 국내 AI 산업 성장의 제도적 기반을 제공하고 있습니다."
+          },
+          {
+            "title": "4. 구글 DeepMind 혁신 프로젝트",
+            "overview": "구글 DeepMind는 대화형 AI 세계 생성 기술, 로봇공학 혁신, 수학 문제 해결 분야에서 획기적인 성과를 이루고 있습니다.",
+            "items": [
+              {
+                "label": "Project Genie: 대화형 세계 생성",
+                "desc": "Project Genie는 텍스트와 이미지 프롬프트에서 탐험 가능한 가상 환경을 생성하는 기술로, 게임 개발과 시뮬레이션 분야에 활용될 수 있습니다. (출처: PYMNTS)",
+                "url": "https://www.pymnts.com/google/2026/google-deepmind-introduces-project-genie-for-interactive-ai-world-building/"
+              },
+              {
+                "label": "Boston Dynamics와 로봇공학 협력",
+                "desc": "구글 DeepMind는 Boston Dynamics와 함께 차세대 휴머노이드 로봇 Atlas 개발에 협력하며, CEO는 물리 지능에서의 '혁신적 순간'이 임박했다고 평가했습니다. (출처: TechCrunch)",
+                "url": "https://techcrunch.com/2026/01/05/boston-dynamicss-next-gen-humanoid-robot-will-have-google-deepmind-dna/"
+              },
+              {
+                "label": "Gemini Deep Think 수학 혁신",
+                "desc": "Gemini Deep Think가 올림피아드 문제 해결에서 기존 버전을 크게 능가했으며, 알고리즘과 경제학 분야의 18개 난제 해결에 도움을 주고 있습니다. (출처: Google DeepMind)",
+                "url": "https://deepmind.google/blog/accelerating-mathematical-and-scientific-discovery-with-gemini-deep-think/"
+              }
+            ],
+            "insight": "DeepMind는 AI의 능력을 물리 세계(로봇공학)과 추상적 문제 해결(수학) 양쪽으로 확장하며 AI의 경계를 넓혀가고 있습니다."
+          },
+          {
+            "title": "5. 오픈소스 AI와 메타 Llama 4",
+            "overview": "메타의 Llama 4 멀티모달 모델 시리즈와 ggml의 Hugging Face 통합으로 오픈소스 AI 생태계가 급속도로 성장하고 있습니다.",
+            "items": [
+              {
+                "label": "메타 Llama 4 출시",
+                "desc": "메타는 Llama 4 Scout(170억 파라미터)와 Llama 4 Maverick(170억 파라미터)을 출시했으며, 이들은 처음으로 기본 제공되는 멀티모달 능력과 Mixture-of-Experts 아키텍처를 갖추고 있습니다. (출처: Meta AI)",
+                "url": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/"
+              },
+              {
+                "label": "ggml, Hugging Face 통합",
+                "desc": "llama.cpp의 제작자 Georgi Gerganov이 ggml.ai를 Hugging Face에 통합했으며, 로컬 AI의 장기적 발전을 보장하는 구조를 마련했습니다. (출처: Simon Willison)",
+                "url": "https://simonwillison.net/2026/Feb/20/ggmlai-joins-hugging-face/"
+              },
+              {
+                "label": "오픈소스 AI 가격 붕괴",
+                "desc": "2024년 대비 2026년 AI 가격이 급락했으며, 최고 수준의 성능을 이전 비용의 극히 일부로 이용할 수 있게 되었습니다. (출처: Blog Mean CEO)",
+                "url": "https://blog.mean.ceo/open-source-ai-news-april-2026/"
+              }
+            ],
+            "insight": "오픈소스 AI의 성숙화와 가격 하락으로 스타트업과 중소기업도 경쟁력 있는 AI를 구축할 수 있는 환경이 조성되고 있습니다."
+          },
+          {
+            "title": "6. 글로벌 AI 시장 규모 및 투자 동향",
+            "overview": "2026년 글로벌 AI 시장이 2조 달러를 돌파할 것으로 전망되며, 1분기 VC 투자가 사상 최고를 기록했습니다.",
+            "items": [
+              {
+                "label": "2026년 글로벌 AI 지출 2조 달러 돌파",
+                "desc": "2025년 약 1.5조 달러에서 2026년 2조 달러를 넘어설 것으로 전망되며, 스마트폰, 서비스, 서버 부문이 성장을 견인하고 있습니다. (출처: Tech42)",
+                "url": "https://www.tech42.co.kr/2026%EB%85%84-%EA%B8%80%EB%A1%9C%EB%B2%8C-ai-%EC%A7%80%EC%B6%9C-2%EC%A1%B0-%EB%8B%AC%EB%9F%AC-%EB%8F%8C%ED%8C%8C-%EC%A0%84%EB%A7%9D%EC%8A%A4%EB%A7%88%ED%8A%B8%ED%8F%B0%C2%B7%EC%84%9C%EB%B9%84/"
+              },
+              {
+                "label": "1분기 VC 투자 297억 달러",
+                "desc": "전년 대비 150% 증가한 297억 달러가 1분기에 투자되었으며, AI 스타트업이 전체 펀딩의 81%를 차지했습니다. (출처: Blog Mean CEO)",
+                "url": "https://blog.mean.ceo/ai-news-april-2026/"
+              },
+              {
+                "label": "Anthropic 연간 매출 190억 달러",
+                "desc": "오픈AI와 경쟁하는 Anthropic도 190억 달러에 가까운 연간 매출을 기록하고 있어 대규모 AI 회사 간 경쟁이 심화되고 있습니다. (출처: Blog Mean CEO)",
+                "url": "https://blog.mean.ceo/ai-news-april-2026/"
+              }
+            ],
+            "insight": "AI 시장의 급속한 성장과 기업 간 대규모 투자 경쟁으로 산업 구도가 빠르게 재편되고 있습니다."
+          }
+        ],
+        "signals": {
+          "hot": "오픈AI의 대규모 펀딩과 AI 슈퍼앱 개발 — 기업들의 AI 의존도 가파른 상승",
+          "grow": "AI 에이전트의 실용화 — 단순 자동화에서 자율적 업무 관리로의 전환",
+          "warn": "AI로 인한 피해 우려 — 미국 성인 50% 이상이 AI 피해 가능성을 우려하고 있음",
+          "shift": "오픈소스 AI의 급속 성장 — 폐쇄형에서 개방형 AI 생태계로의 패러다임 변화"
+        }
+      },
+      "en": {
+        "title": "AI Community Digest: OpenAI's Mega Funding, AI Agents Go Mainstream, Korea Sets Regulations",
+        "summary": "OpenAI completes a $122 billion funding round, fundamentally reshaping the AI market. Simultaneously, AI agents are transitioning from theory to practical business workflows, while Korea establishes regulatory foundations with its AI Basic Law implementation.",
+        "keywords": [
+          [
+            "🚀",
+            "OpenAI Mega Funding",
+            92
+          ],
+          [
+            "🤖",
+            "AI Agents Mainstream Adoption",
+            88
+          ],
+          [
+            "⚖️",
+            "Korea AI Basic Law",
+            85
+          ],
+          [
+            "🧠",
+            "Google DeepMind Innovations",
+            82
+          ],
+          [
+            "💰",
+            "Global AI Market Expansion",
+            78
+          ]
+        ],
+        "sections": [
+          {
+            "title": "1. OpenAI's Unprecedented Funding Round",
+            "overview": "OpenAI has completed a $122 billion funding round, reaching a $852 billion valuation. Major global companies including Amazon, Nvidia, and SoftBank have participated in this historic investment, while the company reports $2 billion in monthly revenue.",
+            "items": [
+              {
+                "label": "OpenAI Raises $122B at $852B Valuation",
+                "desc": "Amazon invested $50 billion, with Nvidia and SoftBank each contributing $30 billion. The funding will support multi-cloud infrastructure expansion and development of an integrated AI superapp combining ChatGPT, Codex, and agentic capabilities. (Source: The AI Insider)",
+                "url": "https://theaiinsider.tech/2026/04/01/openai-raises-122b-in-funding-round-with-853b-valuation-to-build-global-ai-infrasture-superapp/"
+              },
+              {
+                "label": "ChatGPT Reaches 900M+ Weekly Active Users",
+                "desc": "ChatGPT exceeds 900 million weekly active users, with enterprise customers accounting for over 40% of revenue. The company generates approximately $2 billion in monthly revenue. (Source: Bloomberg)",
+                "url": "https://www.bloomberg.com/news/articles/2026-03-31/openai-valued-at-852-billion-after-completing-122-billion-round"
+              },
+              {
+                "label": "Multi-Cloud Infrastructure Strategy",
+                "desc": "OpenAI's infrastructure now spans Microsoft, Oracle, AWS, CoreWeave, and Google Cloud, alongside chip partnerships with Nvidia, AMD, Cerebras, and custom chips with Broadcom. (Source: Blog Mean CEO)",
+                "url": "https://blog.mean.ceo/open-ai-news-april-2026/"
+              }
+            ],
+            "insight": "OpenAI's massive capital raise demonstrates that AI has matured into an industry requiring substantial infrastructure investment, accelerating the shift toward enterprise-grade AI applications."
+          },
+          {
+            "title": "2. AI Agents Transition to Real-World Business Operations",
+            "overview": "AI agents are moving beyond individual productivity tools to autonomously manage complex multi-step workflows. Multi-agent system adoption has increased 327% in less than four months, rapidly spreading across business environments.",
+            "items": [
+              {
+                "label": "Agentic Workflows Move from Demo to Production",
+                "desc": "2026 marks the year when AI agents transition from demonstrations into daily practice. Anthropic's Model Context Protocol (MCP) acts as a 'USB-C for AI,' enabling agents to interface with external tools, databases, and APIs. OpenAI and Microsoft have officially endorsed MCP. (Source: NIST)",
+                "url": "https://www.nist.gov/news-events/news/2026/02/announcing-ai-agent-standards-initiative-interoperable-and-secure"
+              },
+              {
+                "label": "Multi-Agent Systems Up 327% in 4 Months",
+                "desc": "Enterprises are transitioning from single chatbots to specialized multi-agent teams orchestrating entire workflows and connecting data across departments. (Source: Databricks)",
+                "url": "https://www.databricks.com/resources/ebook/state-of-ai-agents"
+              },
+              {
+                "label": "AI Scientist Handles Full Research Workflows",
+                "desc": "Sakana AI's AI Scientist autonomously manages research idea generation, experiment execution, data analysis, paper drafting, and peer review—nearly every aspect of scientific research. (Source: Blog Mean CEO)",
+                "url": "https://blog.mean.ceo/ai-agents-news-april-2026/"
+              }
+            ],
+            "insight": "AI agents are now executing real business workflows, signaling a shift from simple automation to autonomous management of organizational decision-making processes."
+          },
+          {
+            "title": "3. Korea's AI Basic Law Implementation and Policy Acceleration",
+            "overview": "South Korea became the first nation to fully implement comprehensive AI regulations on January 22, 2026. The government has allocated 10.1 trillion won in AI funding, and Korea's AI adoption index is rising significantly.",
+            "items": [
+              {
+                "label": "AI Basic Law Takes Full Effect",
+                "desc": "Korea becomes the world's earliest nation to comprehensively apply AI regulations. High-impact AI systems face enhanced oversight requirements including transparency guarantees, safety assessments, and mandatory impact evaluations. (Source: AI Times Korea)",
+                "url": "https://www.aitimes.kr/news/articleView.html?idxno=38806"
+              },
+              {
+                "label": "Government Support and Compliance Grace Period",
+                "desc": "2026 government AI budget reaches 10.1 trillion won, with a minimum one-year grace period before enforcement penalties, focusing instead on consultation and guidance. (Source: SKT Enterprise)",
+                "url": "https://www.sktenterprise.com/bizInsight/blogDetail/skt/15332"
+              },
+              {
+                "label": "Korea's AI Adoption Surges Globally",
+                "desc": "Korea's global AI adoption ranking jumped from 25th to 18th place, with adoption rate increasing from 25.90% to 30.70%—a 4.80 percentage point surge. (Source: Tech42)",
+                "url": "https://www.tech42.co.kr/%EC%8B%A0%EB%85%84%EA%B8%B0%ED%9A%8D-2026-ai-%EC%9D%B8%EC%82%AC%EC%9D%B4%ED%8A%B8-%E2%91%A1-%ED%95%9C%EA%B5%AD%EC%9D%98-%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5-%ED%98%81%EB%AA%85-%EB%B0%98%EB%85%84/"
+              }
+            ],
+            "insight": "Korea's AI Basic Law provides an international model balancing industrial promotion with safety regulation, establishing institutional foundations for sustainable AI industry growth."
+          },
+          {
+            "title": "4. Google DeepMind's Breakthrough Innovations",
+            "overview": "Google DeepMind is achieving significant advances in interactive AI world generation, robotics partnerships, and mathematical problem-solving.",
+            "items": [
+              {
+                "label": "Project Genie: Interactive Virtual Worlds",
+                "desc": "Project Genie generates explorable virtual environments from simple text and image prompts, enabling applications in game development and simulation technology. The system uses Genie 3, a general-purpose world model. (Source: PYMNTS)",
+                "url": "https://www.pymnts.com/google/2026/google-deepmind-introduces-project-genie-for-interactive-ai-world-building/"
+              },
+              {
+                "label": "Boston Dynamics Robotics Partnership",
+                "desc": "Google DeepMind partners with Boston Dynamics to accelerate next-generation humanoid robot Atlas development, with DeepMind CEO stating robotics is on the verge of a 'physical intelligence breakthrough.' (Source: TechCrunch)",
+                "url": "https://techcrunch.com/2026/01/05/boston-dynamicss-next-gen-humanoid-robot-will-have-google-deepmind-dna/"
+              },
+              {
+                "label": "Gemini Deep Think Advances Mathematics",
+                "desc": "Gemini Deep Think significantly outperforms previous versions on Olympiad-level problems and has contributed to solving 18 challenging research problems in algorithms, economics, and optimization. (Source: Google DeepMind)",
+                "url": "https://deepmind.google/blog/accelerating-mathematical-and-scientific-discovery-with-gemini-deep-think/"
+              }
+            ],
+            "insight": "DeepMind is expanding AI capabilities across both physical domains (robotics) and abstract problem-solving (mathematics), pushing the boundaries of what AI can accomplish."
+          },
+          {
+            "title": "5. Open-Source AI Boom and Meta's Llama 4 Series",
+            "overview": "Meta's Llama 4 multimodal model series and ggml's integration with Hugging Face are driving rapid growth in the open-source AI ecosystem.",
+            "items": [
+              {
+                "label": "Meta Launches Llama 4 Multimodal Models",
+                "desc": "Meta releases Llama 4 Scout (17B parameters) and Llama 4 Maverick (17B parameters), the first natively multimodal open-weight models with extensive context length support and Mixture-of-Experts architecture. (Source: Meta AI)",
+                "url": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/"
+              },
+              {
+                "label": "ggml.ai Joins Hugging Face",
+                "desc": "Georgi Gerganov, creator of llama.cpp, announces ggml.ai integration with Hugging Face, ensuring long-term development of local AI while maintaining project independence and community autonomy. (Source: Simon Willison)",
+                "url": "https://simonwillison.net/2026/Feb/20/ggmlai-joins-hugging-face/"
+              },
+              {
+                "label": "Frontier AI Pricing Collapse",
+                "desc": "Open-source AI advances in 2026 demonstrate significant cost reduction, with frontier-level AI performance now available at a fraction of 2024 costs, enabling startups to build competitive systems. (Source: Blog Mean CEO)",
+                "url": "https://blog.mean.ceo/open-source-ai-news-april-2026/"
+              }
+            ],
+            "insight": "The maturation of open-source AI and dramatic price reductions democratize access to frontier-level models, enabling small companies and startups to compete with tech giants."
+          },
+          {
+            "title": "6. Global AI Market Growth and Investment Surge",
+            "overview": "The global AI market is projected to surpass $2 trillion in 2026, while Q1 2026 VC investment reaches all-time highs.",
+            "items": [
+              {
+                "label": "Global AI Spending Projected to Exceed $2 Trillion",
+                "desc": "AI market spending is expected to jump from approximately $1.5 trillion in 2025 to over $2 trillion in 2026, driven by growth in smartphones, services, and server infrastructure. (Source: Tech42)",
+                "url": "https://www.tech42.co.kr/2026%EB%85%84-%EA%B8%80%EB%A1%9C%EB%B2%8C-ai-%EC%A7%80%EC%B6%9C-2%EC%A1%B0-%EB%8B%AC%EB%9F%AC-%EB%8F%8C%ED%8C%8C-%EC%A0%84%EB%A7%9D%EC%8A%A4%EB%A7%88%ED%8A%B8%ED%8F%B0%C2%B7%EC%84%9C%EB%B9%84/"
+              },
+              {
+                "label": "Q1 2026 VC Investment Reaches Record $29.7B",
+                "desc": "Venture capital investment hit a record $29.7 billion in Q1 2026, up 150% year-over-year, with AI startups capturing 81% of all funding. (Source: Blog Mean CEO)",
+                "url": "https://blog.mean.ceo/ai-news-april-2026/"
+              },
+              {
+                "label": "Anthropic Approaching $19B Annual Revenue",
+                "desc": "As a leading competitor to OpenAI, Anthropic approaches $19 billion in annualized revenue, intensifying competition among major AI companies. (Source: Blog Mean CEO)",
+                "url": "https://blog.mean.ceo/ai-news-april-2026/"
+              }
+            ],
+            "insight": "Massive market growth and inter-company competition for AI dominance are rapidly reshaping the technology landscape and capital allocation strategies."
+          }
+        ],
+        "signals": {
+          "hot": "OpenAI's mega funding round and AI superapp development — accelerating corporate AI dependency",
+          "grow": "AI agents moving into production — shifting from simple automation to autonomous workflow management",
+          "warn": "Public concerns about AI harms — over 50% of U.S. adults worry AI could cause significant damage",
+          "shift": "Open-source AI explosion — paradigm shift from closed proprietary models to open ecosystem dominance"
+        }
+      }
+    }
+  },
+  {
     "date": "2026-03-31",
     "translations": {
       "ko": {
