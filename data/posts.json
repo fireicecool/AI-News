@@ -1,5 +1,298 @@
 [
   {
+    "date": "2026-04-04",
+    "translations": {
+      "ko": {
+        "title": "AI 커뮤니티 다이제스트: 대규모 투자, 양자컴퓨팅 돌파, 규제 강화",
+        "summary": "OpenAI의 역사적 $122억 펀딩 라운드와 마이크로소프트의 일본 $100억 투자가 AI 인프라 경쟁을 가열시키고 있으며, DeepMind의 Project Genie와 AlphaQubit 등 기술 혁신이 계속되는 한편 한국은 $204억 규모의 AI·반도체 투자로 대응하고 있습니다.",
+        "keywords": [
+          [
+            "💰",
+            "대규모펀딩",
+            "92"
+          ],
+          [
+            "🤖",
+            "에이전트AI",
+            "85"
+          ],
+          [
+            "🔬",
+            "양자컴퓨팅",
+            "78"
+          ],
+          [
+            "🌏",
+            "한국AI투자",
+            "82"
+          ],
+          [
+            "⚠️",
+            "규제강화",
+            "71"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "1. 역사적 자금 조달과 기업 가치 평가",
+            "overview": "AI 산업이 과대평가 우려에도 불구하고 기록적인 투자를 받고 있습니다. OpenAI는 $122억의 펀딩으로 기업가치를 $8,520억으로 평가받았으며, 마이크로소프트는 일본에 $100억을 투자하는 등 글로벌 기업들의 AI 인프라 확보 경쟁이 본격화되었습니다.",
+            "items": [
+              {
+                "label": "OpenAI, 기록적 $122억 펀딩 라운드 종료",
+                "desc": "OpenAI는 $122억의 자금 조달을 완료했으며, 이는 기업 가치를 $8,520억으로 평가받았습니다. 동사는 직원 2,000명 이상을 채용하고, 산업 솔루션에 투자하며, 게놈 시퀀싱부터 약물 발견까지 과학 분야에서의 협력을 가속화할 계획입니다. (출처: OpenAI News)",
+                "url": "https://openai.com/index/accelerating-the-next-phase-ai/"
+              },
+              {
+                "label": "마이크로소프트, 일본에 $100억 AI 인프라 투자",
+                "desc": "마이크로소프트는 SoftBank 및 Sakura Internet과 협력하여 2026~2029년 사이 일본에 $100억을 투자하기로 발표했습니다. 이는 AI 인프라, 사이버보안, 그리고 100만 명의 엔지니어 양성을 목표로 합니다. (출처: CNBC)",
+                "url": "https://www.cnbc.com/2026/04/03/sakura-internet-microsoft-ai-japan-softbank-investment.html"
+              },
+              {
+                "label": "Codex, 주간 200만 사용자 돌파, 월간 70% 성장률",
+                "desc": "OpenAI의 Codex는 지난 3개월간 사용자가 5배 증가하여 주간 200만 명을 돌파했으며, 월간 성장률은 70% 이상입니다. 새로운 pay-as-you-go 팀 요금제가 출시되었습니다. (출처: OpenAI Release Notes)",
+                "url": "https://releasebot.io/updates/openai"
+              }
+            ],
+            "insight": "글로벌 기업들은 AI 인프라에 수십억 달러를 투자하고 있으며, 이는 AI가 이제 핵심 경쟁 자산임을 의미합니다."
+          },
+          {
+            "title": "2. 과학과 로봇공학의 AI 혁신",
+            "overview": "DeepMind의 Project Genie와 AlphaQubit는 AI의 새로운 경계를 확장하고 있습니다. Genie는 텍스트와 이미지로부터 상호작용형 가상 환경을 생성하며, AlphaQubit은 양자 오류 수정을 혁신하고 있습니다. 또한 Boston Dynamics와의 로봇공학 파트너십이 구체화되고 있습니다.",
+            "items": [
+              {
+                "label": "Project Genie: 세계 모델 기반 인터랙티브 환경 생성",
+                "desc": "Google DeepMind의 Project Genie는 텍스트 및 이미지 프롬프트에서 다양하고 탐색 가능한 가상 환경을 생성합니다. 사용자는 실시간으로 진화하는 풍경, 캐릭터, 환경을 만들 수 있습니다. (출처: Google DeepMind Blog)",
+                "url": "https://deepmind.google/blog/accelerating-mathematical-and-scientific-discovery-with-gemini-deep-think/"
+              },
+              {
+                "label": "AlphaQubit: 양자 오류 수정의 획기적 돌파",
+                "desc": "DeepMind의 AlphaQubit 디코더는 더 적은 물리적 큐비트로 더 높은 성능을 추출할 수 있게 하였으며, 약물 발견과 재료 과학 분야에서 실용적인 양자 우월성 달성을 가능하게 할 것으로 예상됩니다. (출처: Financial Content)",
+                "url": "https://markets.financialcontent.com/wral/article/tokenring-2026-1-1-the-error-correction-breakthrough-how-google-deepminds-alphaqubit-is-solving-quantum-computings-greatest-challenge"
+              },
+              {
+                "label": "Gemini Deep Think, 올림피아드 레벨 문제 해결",
+                "desc": "최신 버전의 Gemini Deep Think은 2025년 7월 IMO-Gold 버전을 능가하여 올림피아드 수준의 문제를 해결합니다. 18가지 연구 문제에 대해 전문가와 협력하여 알고리즘, ML, 정보 이론 등에서 기존 과제를 해결했습니다. (출처: Google DeepMind Blog)",
+                "url": "https://deepmind.google/blog/accelerating-mathematical-and-scientific-discovery-with-gemini-deep-think/"
+              }
+            ],
+            "insight": "AI는 더 이상 텍스트 기반만이 아니며, 시각적 세계 모델링과 양자 컴퓨팅 최적화라는 새로운 영역으로 확장되고 있습니다."
+          },
+          {
+            "title": "3. AI 에이전트와 엔터프라이즈 적용의 가속화",
+            "overview": "2026년은 'AI 에이전트의 해'로 불리며, 모든 직원을 위한 생산성 에이전트부터 고객 경험 개선 에이전트까지 다양한 에이전트 활용이 확산되고 있습니다. 기업 부문은 OpenAI의 수익의 40% 이상을 차지하며 소비자 부문과의 수익 균형이 이루어지는 중입니다.",
+            "items": [
+              {
+                "label": "5가지 에이전트 트렌드: 직원, 워크플로우, 고객, 보안, 확장성",
+                "desc": "2026년 AI 에이전트의 주요 트렌드로는 (1) 모든 직원을 위한 생산성 에이전트, (2) 모든 워크플로우를 위한 실제 상황 기반 에이전트, (3) 고객을 위한 컨시어지 경험 제공 에이전트, (4) 보안 에이전트, (5) 인재 업스킬을 통한 확장성 에이전트가 있습니다. (출처: AI Industry Trends)",
+                "url": "https://blog.mean.ceo/ai-industry-trends-april-2026/"
+              },
+              {
+                "label": "OpenAI, 엔터프라이즈 매출 40% 이상 달성",
+                "desc": "OpenAI의 엔터프라이즈 부문이 전체 매출의 40% 이상을 차지하고 있으며, 2026년 말까지 소비자 부문과 동등한 수준으로 도달할 것으로 예상됩니다. 동사는 월간 $20억의 매출을 올리고 있습니다. (출처: OpenAI)",
+                "url": "https://openai.com/index/accelerating-the-next-phase-ai/"
+              },
+              {
+                "label": "산업 통합 국면: 데모와 프로덕션의 격차 심화",
+                "desc": "4월은 AI 산업의 통합 및 결과 검증 시기입니다. 초기 2026년의 낙관주의가 운영 현실에 맞닥뜨리고 있으며, 배포된 AI 시스템의 실제 결과와 데모 사이의 격차가 승자와 패자를 결정하고 있습니다. (출처: AI Industry Trends)",
+                "url": "https://blog.mean.ceo/ai-trends-april-2026/"
+              }
+            ],
+            "insight": "엔터프라이즈는 이제 AI 도입에 있어 검증과 실제 가치 창출을 중시하고 있으며, 데모 기반이 아닌 실제 프로덕션 결과가 중요해지고 있습니다."
+          },
+          {
+            "title": "4. 한국의 AI·반도체 공략적 투자와 정책 확대",
+            "overview": "한국 정부는 2026년을 AI 전략의 대강화 해로 설정하여 $204억 규모의 AI·반도체 투자를 추진 중입니다. 콘텐츠·미디어, 게임, 신약 개발 등 산업별 AI 적용을 가속화하고 있으며, 기업들의 70% 이상이 생성형 AI를 도입하거나 도입 중입니다.",
+            "items": [
+              {
+                "label": "2026년 한국 AI·반도체 $204억 투자 발표",
+                "desc": "한국 정부는 Public Growth Fund를 통해 2026년 AI와 반도체 부문에 $204억을 투자할 계획입니다. 중기부도 약 8,000억 원의 AI 예산을 편성하여 AI 스타트업 지원과 제조업 AI 전환에 집중하고 있습니다. (출처: The Korea Times)",
+                "url": "https://www.koreatimes.co.kr/economy/policy/20251216/korea-to-invest-204-bil-in-ai-chip-sectors-via-public-growth-fund-in-2026"
+              },
+              {
+                "label": "AI 고속도로 구축: 2028년까지 52,000개 고급 GPU 확보",
+                "desc": "한국 정부는 AI 개발과 활용에 필요한 컴퓨팅 장치, 데이터센터, 네트워크를 효율적으로 구축·연결하는 'AI 고속도로'를 추진 중입니다. 2028년까지 52,000개 이상의 첨단 GPU 확보와 국가 AI 컴퓨팅 센터 구축을 목표로 하고 있습니다. (출처: 대한민국 정책브리핑)",
+                "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148957796"
+              },
+              {
+                "label": "한국 기업 70%, 생성형 AI 도입 또는 도입 중",
+                "desc": "한국 기업의 53.9%가 생성형 AI를 조직 전체 또는 일부 부서에서 활용하고 있으며, 추가 15.8%가 도입 또는 파일럿 중으로, 총 70%의 기업이 생성형 AI에 투자하고 있습니다. 콘텐츠·미디어, 게임, 신약 개발 등 산업별 맞춤형 지원이 확대되고 있습니다. (출처: CIO Korea)",
+                "url": "https://www.cio.com/article/4111617/%EC%83%9D%EC%84%B1%ED%98%95-ai%EA%B0%80-it-%EC%A0%84%EB%9E%B5%EC%9D%84-%EB%B0%94%EA%BE%BC%EB%8B%A4-2026-it-%EC%A0%84%EB%A7%9D-%EC%A1%B0%EC%82%AC-%EA%B2%B0%EA%B3%BC.html"
+              }
+            ],
+            "insight": "한국은 AI 인프라 구축과 산업별 AI 도입에 적극적이며, 글로벌 AI 경쟁에서 주요 플레이어로 부상하고 있습니다."
+          },
+          {
+            "title": "5. 규제 강화와 공중의 우려 심화",
+            "overview": "EU를 중심으로 AI 규제가 초안 단계에서 집행 단계로 전환되고 있습니다. 채팅봇 안전 법안이 여러 주에서 추진 중이며, 미국 성인의 50% 이상이 AI로 인한 해를 우려하고 있어, 일자리 감소와 개인정보 침해에 대한 불안감이 커지고 있습니다.",
+            "items": [
+              {
+                "label": "미국 성인 50% 이상, AI의 해로움 우려",
+                "desc": "최근 Quinnipiac 여론조사에 따르면 미국 성인의 50% 이상이 AI가 해를 끼칠 가능성이 높다고 생각합니다. 일자리 감소, 개인정보 침해 등 일상생활에서의 AI 기술 확산에 대한 우려가 커지고 있습니다. (출처: AI and News)",
+                "url": "https://www.aiandnews.com/blog/latest-ai-news-public-concerns/"
+              },
+              {
+                "label": "EU, AI 규제 초안에서 집행 단계로 전환",
+                "desc": "EU와 전 세계의 규제 프레임워크가 초안 단계에서 집행 자세로 변환되고 있습니다. 여러 주에서 채팅봇 안전 법안이 추진 중이며, AI 윤리와 투명성에 대한 규제가 본격화되고 있습니다. (출처: Transparency Coalition)",
+                "url": "https://www.transparencycoalition.ai/news/ai-legislative-update-april3-2026"
+              }
+            ],
+            "insight": "AI 기술의 급속한 발전 속에서 규제와 공중의 우려가 동시에 커지고 있으며, 기업들은 윤리적 AI 운영에 대한 압박을 받을 것으로 예상됩니다."
+          }
+        ],
+        "signals": {
+          "hot": "대규모 자본 투입으로 인한 AI 인프라 경쟁의 과열",
+          "grow": "엔터프라이즈 AI 도입의 실제 성과 검증 및 산업별 맞춤형 솔루션 확산",
+          "warn": "공중의 AI에 대한 우려 심화와 규제 강화로 인한 기업 운영 제약",
+          "shift": "데모 기반에서 실제 프로덕션 성과로의 평가 기준 전환"
+        }
+      },
+      "en": {
+        "title": "AI Community Digest: Record Funding, Quantum Breakthroughs, and Regulatory Shifts",
+        "summary": "OpenAI's historic $122 billion funding round and Microsoft's $10 billion Japan investment are intensifying the AI infrastructure race, while DeepMind's Project Genie and AlphaQubit drive technological innovation. Simultaneously, South Korea counters with a $20.4 billion AI and semiconductor investment, and regulatory frameworks shift from drafting to enforcement globally.",
+        "keywords": [
+          [
+            "💰",
+            "Record Funding",
+            "92"
+          ],
+          [
+            "🤖",
+            "AI Agents",
+            "85"
+          ],
+          [
+            "🔬",
+            "Quantum Computing",
+            "78"
+          ],
+          [
+            "🌏",
+            "Korea Investment",
+            "82"
+          ],
+          [
+            "⚠️",
+            "Regulatory Shift",
+            "71"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "1. Historic Capital Raises and Market Valuations",
+            "overview": "The AI industry is attracting record-breaking investments despite valuation concerns. OpenAI secured $122 billion in funding, reaching a $852 billion enterprise valuation, while Microsoft committed $10 billion for Japan's AI infrastructure. Global tech giants are engaged in an intense infrastructure competition, signaling AI's evolution from experimental to mission-critical.",
+            "items": [
+              {
+                "label": "OpenAI Closes Record $122 Billion Funding Round",
+                "desc": "OpenAI completed a $122 billion funding round at a post-money valuation of $852 billion. The company plans to hire over 2,000 employees, invest in enterprise solutions, and accelerate scientific collaboration from genome sequencing to drug discovery. (Source: OpenAI News)",
+                "url": "https://openai.com/index/accelerating-the-next-phase-ai/"
+              },
+              {
+                "label": "Microsoft Invests $10 Billion in Japan AI Infrastructure",
+                "desc": "Microsoft announced a $10 billion investment in Japan between 2026-2029 in partnership with SoftBank and Sakura Internet. The initiative targets AI infrastructure development, cybersecurity, and training 1 million engineers and developers by 2030. (Source: CNBC)",
+                "url": "https://www.cnbc.com/2026/04/03/sakura-internet-microsoft-ai-japan-softbank-investment.html"
+              },
+              {
+                "label": "Codex Reaches 2 Million Weekly Users, 70% Monthly Growth",
+                "desc": "OpenAI's Codex achieved a 5x user increase over three months, now serving 2 million weekly users with over 70% month-over-month growth. New pay-as-you-go pricing for teams was introduced, expanding accessibility. (Source: OpenAI Release Notes)",
+                "url": "https://releasebot.io/updates/openai"
+              }
+            ],
+            "insight": "Global tech corporations are deploying billions into AI infrastructure—a clear signal that AI is now a critical competitive asset requiring sustained capital investment."
+          },
+          {
+            "title": "2. Scientific and Robotics AI Breakthroughs",
+            "overview": "DeepMind's Project Genie and AlphaQubit are expanding AI's frontier. Genie generates interactive virtual worlds from text and images with real-time evolution, while AlphaQubit revolutionizes quantum error correction. Boston Dynamics partnership materializes DeepMind's robotics ambitions into next-generation physical AI.",
+            "items": [
+              {
+                "label": "Project Genie: Interactive Environments from World Models",
+                "desc": "Google DeepMind's Project Genie uses advanced world models to generate diverse, explorable virtual environments from simple text and image prompts. Users can create landscapes, characters, and environments that evolve in real time. (Source: Google DeepMind Blog)",
+                "url": "https://deepmind.google/blog/accelerating-mathematical-and-scientific-discovery-with-gemini-deep-think/"
+              },
+              {
+                "label": "AlphaQubit: Quantum Error Correction Breakthrough",
+                "desc": "DeepMind's AlphaQubit decoder extracts superior performance from fewer physical qubits, providing an efficiency advantage that could enable practical quantum supremacy in drug discovery and material science. (Source: Financial Content)",
+                "url": "https://markets.financialcontent.com/wral/article/tokenring-2026-1-1-the-error-correction-breakthrough-how-google-deepminds-alphaqubit-is-solving-quantum-computings-greatest-challenge"
+              },
+              {
+                "label": "Gemini Deep Think Solves Olympiad-Level Problems",
+                "desc": "The latest Gemini Deep Think version outperforms the IMO-Gold version from July 2025 on Olympiad-level mathematics. Collaborating with experts on 18 research problems, it resolved bottlenecks in algorithms, ML, information theory, and economics. (Source: Google DeepMind Blog)",
+                "url": "https://deepmind.google/blog/accelerating-mathematical-and-scientific-discovery-with-gemini-deep-think/"
+              }
+            ],
+            "insight": "AI is no longer confined to text processing; visual world modeling and quantum computing optimization represent new frontiers for practical AI applications."
+          },
+          {
+            "title": "3. AI Agents and Enterprise Adoption Acceleration",
+            "overview": "2026 is branded the 'Year of AI Agents,' with deployment ranging from employee productivity agents to customer experience agents to security operations. Enterprise revenue now exceeds 40% of OpenAI's total, approaching parity with consumer segments by year-end.",
+            "items": [
+              {
+                "label": "Five AI Agent Trends: Employees, Workflows, Customers, Security, Scale",
+                "desc": "2026's dominant AI agent trends include: (1) productivity agents for every employee, (2) grounded agents for every workflow, (3) concierge-like agents for customers, (4) security agents, and (5) agents enabling scale through talent upskilling. (Source: AI Industry Trends)",
+                "url": "https://blog.mean.ceo/ai-industry-trends-april-2026/"
+              },
+              {
+                "label": "OpenAI Enterprise Revenue Surpasses 40% of Total",
+                "desc": "OpenAI's enterprise segment now represents over 40% of total revenue, projected to reach parity with consumer segment by year-end 2026. The company is generating $2 billion in monthly revenue. (Source: OpenAI)",
+                "url": "https://openai.com/index/accelerating-the-next-phase-ai/"
+              },
+              {
+                "label": "Industry Consolidation Phase: Demo vs. Production Gap Widening",
+                "desc": "April marks a consolidation and consequence phase where early 2026 optimism meets operational reality. The gap between demo capabilities and production deployments increasingly defines industry winners and losers. (Source: AI Industry Trends)",
+                "url": "https://blog.mean.ceo/ai-trends-april-2026/"
+              }
+            ],
+            "insight": "Enterprises now demand demonstrated ROI and production-proven results rather than experimental demos; this shift is accelerating innovation in practical, deployment-ready AI solutions."
+          },
+          {
+            "title": "4. South Korea's Strategic AI and Semiconductor Investment",
+            "overview": "South Korea has positioned 2026 as a critical year for AI expansion, committing $20.4 billion to AI and semiconductor sectors through the Public Growth Fund. Industry-specific deployments span content, media, gaming, and drug discovery, with 70% of Korean enterprises either adopting or implementing generative AI.",
+            "items": [
+              {
+                "label": "South Korea Announces $20.4 Billion AI and Semiconductor Investment",
+                "desc": "The Korean government committed $20.4 billion through the Public Growth Fund for 2026 AI and semiconductor investment. The Ministry of SMEs allocated approximately 8 billion won specifically for AI budget, focusing on startup development and manufacturing AI transformation. (Source: The Korea Times)",
+                "url": "https://www.koreatimes.co.kr/economy/policy/20251216/korea-to-invest-204-bil-in-ai-chip-sectors-via-public-growth-fund-in-2026"
+              },
+              {
+                "label": "AI Highway Initiative: 52,000 Advanced GPUs by 2028",
+                "desc": "South Korea is building an 'AI Highway' by efficiently constructing and connecting computing devices, data centers, and networks for AI development. The target is to secure over 52,000 advanced GPUs by 2028 and establish a National AI Computing Center. (Source: Korea Policy Briefing)",
+                "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148957796"
+              },
+              {
+                "label": "70% of Korean Companies Adopting or Implementing Generative AI",
+                "desc": "53.9% of Korean enterprises are utilizing generative AI organization-wide or departmentally, with an additional 15.8% in implementation or pilot phases, totaling 70% adopting generative AI. Industry-specific support spans content, media, gaming, and pharmaceutical development. (Source: CIO Korea)",
+                "url": "https://www.cio.com/article/4111617/%EC%83%9D%EC%84%B1%ED%98%95-ai%EA%B0%80-it-%EC%A0%84%EB%9E%B5%EC%9D%84-%EB%B0%94%EA%BE%BC%EB%8B%A4-2026-it-%EC%A0%84%EB%A7%9D-%EC%A1%B0%EC%82%AC-%EA%B2%B0%EA%B3%BC.html"
+              }
+            ],
+            "insight": "South Korea is positioning itself as a major AI player through coordinated infrastructure investment and industry-specific adoption programs, bridging the gap between government policy and enterprise implementation."
+          },
+          {
+            "title": "5. Regulatory Enforcement and Public Sentiment Shifts",
+            "overview": "AI regulation is transitioning from draft phase to enforcement globally. EU frameworks are hardening, chatbot safety bills gain traction across U.S. states, and over 50% of American adults express concern about AI-induced harms including job displacement and privacy violations.",
+            "items": [
+              {
+                "label": "Over 50% of U.S. Adults Concerned About AI Harm",
+                "desc": "A Quinnipiac poll shows that more than half of U.S. adults believe AI will likely cause harm. Public concerns center on job displacement, privacy violations, and the role of AI in everyday life. This sentiment gap between corporate optimism and public apprehension is widening. (Source: AI and News)",
+                "url": "https://www.aiandnews.com/blog/latest-ai-news-public-concerns/"
+              },
+              {
+                "label": "EU Regulatory Framework Shifts from Draft to Enforcement",
+                "desc": "Regulatory frameworks across the EU and globally are moving from draft to enforcement posture. Chatbot safety bills are advancing in multiple U.S. states, signaling regulatory tightening around AI transparency and safety. (Source: Transparency Coalition)",
+                "url": "https://www.transparencycoalition.ai/news/ai-legislative-update-april3-2026"
+              }
+            ],
+            "insight": "Rising public concern and regulatory enforcement create a new operating environment where AI ethics and transparency become competitive differentiators rather than optional concerns."
+          }
+        ],
+        "signals": {
+          "hot": "AI infrastructure spending frenzy driven by competitive capital deployment",
+          "grow": "Enterprise AI adoption maturing toward production-proven, measurable ROI solutions",
+          "warn": "Public sentiment turning cautious; regulatory enforcement accelerating globally",
+          "shift": "Paradigm shift from demo-based to production-based AI performance evaluation"
+        }
+      }
+    }
+  },
+  {
     "date": "2026-04-02",
     "translations": {
       "ko": {
