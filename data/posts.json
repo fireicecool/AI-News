@@ -1,5 +1,352 @@
 [
   {
+    "date": "2026-04-05",
+    "translations": {
+      "ko": {
+        "title": "AI 커뮤니티 다이제스트: 모델 경쟁 심화, 반도체 초강세, 에이전트 시대 본격화",
+        "summary": "OpenAI의 GPT-5.4, Google DeepMind의 Gemma 4, Anthropic의 Claude Mythos 5 등 초거대 모델들의 경쟁이 심화되고 있으며, 한국 반도체 수출이 사상 최대를 기록했습니다. AI 에이전트 기술이 실무에 적용되는 시점이 도래했습니다.",
+        "keywords": [
+          [
+            "🤖",
+            "거대언어모델",
+            92
+          ],
+          [
+            "💰",
+            "AI산업자금",
+            88
+          ],
+          [
+            "⚡",
+            "반도체효율",
+            85
+          ],
+          [
+            "🔧",
+            "에이전트워크플로우",
+            81
+          ],
+          [
+            "🎮",
+            "K-콘텐츠AI",
+            76
+          ]
+        ],
+        "sections": [
+          {
+            "title": "1. 거대언어모델 경쟁 심화",
+            "overview": "2026년 4월 초 AI 업계는 새로운 모델 경쟁의 정점에 올랐습니다. OpenAI, Google, Anthropic 등 업계 리더들이 차세대 모델을 연이어 선보이고 있으며, 각 모델은 수학, 추론, 멀티모달 능력에서 새로운 벤치마크를 세우고 있습니다.",
+            "items": [
+              {
+                "label": "OpenAI GPT-5.4 출시",
+                "desc": "GPT-5.4는 100만 토큰 컨텍스트 윈도우와 자동화된 멀티스텝 워크플로우 실행 능력을 갖추고 있으며, OSWorld-V 벤치마크에서 75% 점수로 인간 기준선(72.4%)을 상회했습니다. (출처: devFlokers AI News)",
+                "url": "https://www.devflokers.com/blog/ai-news-last-24-hours-april-2026-model-releases-breakthroughs"
+              },
+              {
+                "label": "Google Gemma 4 공개",
+                "desc": "Google DeepMind의 Gemma 4는 고급 추론과 에이전트 워크플로우에 특화된 지능형 오픈소스 모델로, 바이트당 unprecedented intelligence-per-parameter를 달성했습니다. (출처: Google AI Blog)",
+                "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/"
+              },
+              {
+                "label": "Anthropic Claude Mythos 5",
+                "desc": "Anthropic은 10조 매개변수 규모의 Claude Mythos 5를 공개했으며, 경제적 가치가 높은 작업에서 인간 전문가 수준의 성능을 보이고 있습니다. (출처: Crescendo AI News)",
+                "url": "https://www.crescendo.ai/news/latest-ai-news-and-updates"
+              },
+              {
+                "label": "Google Gemini 3.1 Flash-Lite",
+                "desc": "효율성 중심의 Gemini 3.1 Flash-Lite는 이전 버전 대비 2.5배 빠른 응답 속도와 45% 빠른 출력 생성을 제공하며, 입력 토큰당 $0.25의 저렴한 가격으로 책정되었습니다. (출처: IBM AI Trends)",
+                "url": "https://www.ibm.com/think/news/ai-tech-trends-predictions-2026"
+              }
+            ],
+            "insight": "모델 경쟁이 순수 성능에서 효율성과 전문화로 전환되고 있습니다. 개별 모델의 크기보다는 특정 작업에 최적화된 모델 생태계 구축이 2026년의 핵심 전략입니다."
+          },
+          {
+            "title": "2. 반도체 시장의 AI 중심 재편",
+            "overview": "한국 반도체 산업이 AI 수요에 힘입어 사상 최고의 실적을 기록했습니다. AI 서버 기판에 대한 수요 급증으로 생산 자원이 재편되고 있으며, 이는 글로벌 AI 인프라 구축의 가속화를 의미합니다.",
+            "items": [
+              {
+                "label": "한국 3월 반도체 수출 사상 최대",
+                "desc": "3월 반도체 수출이 전년 대비 151.4% 증가하여 월 수출액 300억 달러를 돌파했습니다. AI 반도체의 폭발적 수요와 공급 부족이 가격 급등을 초래했습니다. (출처: Today's News Korea)",
+                "url": "https://www.cliktoday.com/2026/04/20260403-today-news.html"
+              },
+              {
+                "label": "AI 기판 수요 중심 산업 구조 변화",
+                "desc": "AI 서버용 반도체 기판 수요 급증으로 생산 자원이 해당 분야로 집중되면서 모바일용 기판 공급 부족 현상이 발생했습니다. 반도체 시장이 모바일 중심에서 AI 중심으로 재편되는 흐름이 뚜렷합니다. (출처: SPA Times Korea)",
+                "url": "https://www.sptatimeskorea.com/post/%EC%A0%9C20260403-tm-01%ED%98%B8-2026%EB%85%84-4%EC%9B%94-3%EC%9D%BC-%EB%B0%98%EB%8F%84%EC%B2%B4-%EC%A0%9C%EC%A1%B0-%EA%B4%80%EB%A0%A8-%EC%A3%BC%EC%9A%94-%EB%89%B4%EC%8A%A4-%EC%9A%94%EC%95%BD"
+              },
+              {
+                "label": "Meta MTIA 칩 확대 배포",
+                "desc": "Meta는 자체 MTIA(Meta Training and Inference Accelerator) 칩을 데이터센터에 배포하여 Nvidia 의존도를 줄이고 있습니다. MTIA 400은 테스트 중이며, MTIA 450과 500은 2027년 대량 배포될 예정입니다. (출처: DevFlokers News)",
+                "url": "https://www.devflokers.com/blog/ai-news-last-24-hours-april-2026-model-releases-breakthroughs"
+              }
+            ],
+            "insight": "반도체 시장의 AI 중심화는 일시적 현상이 아닌 구조적 변화입니다. 이는 AI 인프라 투자가 장기화될 것임을 시사합니다."
+          },
+          {
+            "title": "3. 에이전트 기술의 실무 적용 본격화",
+            "overview": "2026년의 가장 중요한 전환점은 AI 에이전트가 데모 단계에서 실제 업무에 활용되기 시작했다는 점입니다. 자동 워크플로우 실행, 멀티스텝 의사결정, 실시간 시스템 통합이 주요 특징입니다.",
+            "items": [
+              {
+                "label": "AI 에이전트, 디지털 동료로 진화",
+                "desc": "AI 에이전트가 개인과 소규모 팀을 강화하는 디지털 동료로 기능하기 시작했습니다. MCP(Model Control Protocol)가 에이전트와 실제 시스템의 연결 마찰을 줄임으로써 2026년이 에이전트 워크플로우의 본격적 실무 진입 시점이 되었습니다. (출처: MIT Technology Review)",
+                "url": "https://www.technologyreview.com/2026/01/05/1130662/whats-next-for-ai-in-2026/"
+              },
+              {
+                "label": "복잡한 멀티스텝 워크플로우 자동화",
+                "desc": "GPT-5.4와 같은 최신 모델들은 로컬 및 클라우드 환경에서 복잡한 멀티스텝 워크플로우를 실행할 수 있습니다. 이는 기존의 대화식 AI에서 행동하는 AI로의 근본적 전환을 의미합니다. (출처: InfoWorld)",
+                "url": "https://www.infoworld.com/article/4108092/6-ai-breakthroughs-that-will-define-2026.html"
+              }
+            ],
+            "insight": "에이전트 기술은 더 이상 연구 단계가 아닙니다. 실제 업무 환경에서의 안정성과 성과 측정이 2026년의 과제가 될 것입니다."
+          },
+          {
+            "title": "4. AI 산업 자금 조달의 역대급 증가",
+            "overview": "OpenAI, Anthropic 등 주요 AI 회사들이 기록적 규모의 자금을 조달하고 있습니다. 2026년 1분기 벤처 거래 가치가 역대 최고를 경신했으며, xAI의 SpaceX 인수는 AI의 정부 및 우주 산업으로의 확장을 의미합니다.",
+            "items": [
+              {
+                "label": "OpenAI $122억 대규모 자금 유치",
+                "desc": "OpenAI는 Amazon($50억), Nvidia($30억), SoftBank($30억) 등으로부터 총 $122억을 유치했습니다. 이는 AI 스타트업으로는 역대 최대 규모의 단일 펀딩입니다. (출처: Crescendo AI News)",
+                "url": "https://www.crescendo.ai/news/latest-ai-news-and-updates"
+              },
+              {
+                "label": "Anthropic $30억 Series G 펀딩",
+                "desc": "Anthropic이 Series G 라운드에서 $30억을 확보했으며, OpenAI의 $25억 연간 매출을 추격하는 Anthropic의 $19억 연간 매출 성장을 지원합니다. (출처: TechCrunch)",
+                "url": "https://techcrunch.com/2026/01/02/in-2026-ai-will-move-from-hype-to-pragmatism/"
+              },
+              {
+                "label": "xAI, SpaceX에 $250억에 인수",
+                "desc": "Elon Musk의 xAI가 SpaceX에 $250억 규모로 인수되었으며, 이는 AI 기술과 우주/통신 인프라의 통합을 의미합니다. (출처: Yahoo Finance)",
+                "url": "https://finance.yahoo.com/news/morgan-stanley-warns-ai-breakthrough-072000084.html"
+              },
+              {
+                "label": "1분기 벤처 거래 가치 역대 최고",
+                "desc": "2026년 1분기 벤처 거래 가치가 $267.2억으로, 이전 분기 기록의 2배 이상을 기록했습니다. 이는 AI 인프라 투자의 가속화를 보여줍니다. (출처: Crescendo AI News)",
+                "url": "https://www.crescendo.ai/news/latest-ai-news-and-updates"
+              }
+            ],
+            "insight": "AI 산업의 자금 흐름은 기술력 검증에서 상용화 경쟁으로 전환되고 있습니다. IPO를 준비하는 OpenAI의 움직임은 AI 산업의 성숙화를 의미합니다."
+          },
+          {
+            "title": "5. 한국 AI 산업의 K-콘텐츠 전략",
+            "overview": "한국 IT 업계가 AI 기술을 게임, 영상, 콘텐츠 제작에 활용하는 본격적 움직임을 시작했습니다. 정부 지원사업도 AI 게임 개발에 높은 관심을 보이고 있습니다.",
+            "items": [
+              {
+                "label": "AI 게임 개발 지원사업 확대",
+                "desc": "문화진흥원에서 2026년 AI 게임콘텐츠 제작지원을 플랫폼 제한 없이 확대하며, 과제당 최대 3억원 규모로 약 9개 내외 과제를 선정합니다. (출처: ZDNet Korea)",
+                "url": "https://zdnet.co.kr/view/?no=20260224161740"
+              },
+              {
+                "label": "한국어 특화 AI 모델 고도화",
+                "desc": "국내 IT 기업들이 한국어 특화 생성형 AI 모델의 고도화를 발표했으며, K-콘텐츠 제작 도구로서의 AI 활용이 가속화되고 있습니다. (출처: 전자신문)",
+                "url": "https://www.etnews.com/20251231000243?m=1"
+              },
+              {
+                "label": "통신사의 AI 투자 확대",
+                "desc": "통신사 10곳 중 9곳이 AI가 매출과 비용에 긍정 효과를 가진다고 평가하며, 2026년 AI 예산을 평균 89% 증가시켰습니다. (출처: KITPA)",
+                "url": "https://kitpa.org/news/1120"
+              }
+            ],
+            "insight": "한국은 반도체 공급과 콘텐츠 제작에서 AI를 양날의 검으로 사용하고 있습니다. 하드웨어 강점과 콘텐츠 강점을 AI로 결합하는 전략이 중장기 경쟁력입니다."
+          },
+          {
+            "title": "6. 효율성 혁명: 양자화와 압축 기술",
+            "overview": "AI 모델의 크기는 커지는데 실행 비용은 줄어드는 역설이 현실화되었습니다. Google의 TurboQuant 같은 혁신적 양자화 기술이 메모리 사용을 6배 이상 줄일 수 있게 되었습니다.",
+            "items": [
+              {
+                "label": "Google TurboQuant 알고리즘 ICLR 2026 공개",
+                "desc": "Google 연구팀이 TurboQuant를 공개했으며, KV 캐시를 단 3비트로 양자화하면서도 정확도 손실이 없습니다. 메모리 사용량을 최소 6배 줄일 수 있습니다. (출처: AIToolly)",
+                "url": "https://aitoolly.com/ai-news/article/2026-04-03-google-deepmind-unveils-gemma-4-high-intelligence-open-models-optimized-for-advanced-reasoning-and-a"
+              },
+              {
+                "label": "Post-Training 기법의 중심화",
+                "desc": "2026년에는 모델 크기보다 후학습(post-training) 기법이 중심이 되고 있습니다. 강화학습 등의 기술로 특정 작업에 특화된 고성능 모델을 만드는 방식이 확산되고 있습니다. (출처: MIT Technology Review)",
+                "url": "https://www.technologyreview.com/2026/01/05/1130662/whats-next-for-ai-in-2026/"
+              }
+            ],
+            "insight": "효율성 기술은 단순히 비용 절감을 넘어 AI 민주화의 핵심입니다. 적은 자원으로도 강력한 AI를 실행할 수 있는 시대가 도래했습니다."
+          }
+        ],
+        "signals": {
+          "hot": "거대모델 경쟁의 심화 — 성능 경쟁에서 효율성 경쟁으로 전환 중",
+          "grow": "AI 에이전트 기술의 실무 적용 — 데모에서 생산 환경으로 단계 진행",
+          "warn": "모바일 반도체 공급 부족 — AI 중심 재편의 부작용 주의 필요",
+          "shift": "AI 산업의 성숙화 — 펀딩 러시에서 상용화 경쟁, IPO 준비 단계로 진입"
+        }
+      },
+      "en": {
+        "title": "AI Community Digest: Model Wars Heat Up, Semiconductor Boom, Agents Go Mainstream",
+        "summary": "OpenAI's GPT-5.4, Google DeepMind's Gemma 4, and Anthropic's Claude Mythos 5 are fueling intense competition. Korea's semiconductor exports hit record highs. AI agents are moving from demos to real-world deployment at scale.",
+        "keywords": [
+          [
+            "🤖",
+            "LLM Competition",
+            92
+          ],
+          [
+            "💰",
+            "AI Funding Surge",
+            88
+          ],
+          [
+            "⚡",
+            "Chip Efficiency",
+            85
+          ],
+          [
+            "🔧",
+            "Agentic Workflows",
+            81
+          ],
+          [
+            "📺",
+            "K-Content AI",
+            76
+          ]
+        ],
+        "sections": [
+          {
+            "title": "1. Giant Language Model Wars Intensify",
+            "overview": "Early April 2026 marks a turning point in AI competition. Industry leaders OpenAI, Google, and Anthropic are rolling out next-generation models that set new benchmarks across math, reasoning, and multimodal capabilities. Each model represents a quantum leap in specific domains.",
+            "items": [
+              {
+                "label": "OpenAI Launches GPT-5.4",
+                "desc": "GPT-5.4 features a 1-million-token context window and autonomous multi-step workflow execution. On the OSWorld-V benchmark simulating real desktop tasks, it scored 75%, surpassing the human baseline of 72.4%. (Source: devFlokers AI News)",
+                "url": "https://www.devflokers.com/blog/ai-news-last-24-hours-april-2026-model-releases-breakthroughs"
+              },
+              {
+                "label": "Google Introduces Gemma 4",
+                "desc": "DeepMind's Gemma 4 is an open-source model purpose-built for advanced reasoning and agentic workflows, delivering unprecedented intelligence-per-parameter efficiency. (Source: Google AI Blog)",
+                "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/"
+              },
+              {
+                "label": "Anthropic Releases Claude Mythos 5",
+                "desc": "Anthropic unveiled Claude Mythos 5 with 10 trillion parameters, demonstrating human-expert-level performance on economically valuable tasks. (Source: Crescendo AI News)",
+                "url": "https://www.crescendo.ai/news/latest-ai-news-and-updates"
+              },
+              {
+                "label": "Google's Gemini 3.1 Flash-Lite",
+                "desc": "This efficiency-focused model delivers 2.5× faster response times and 45% faster output generation than earlier versions, priced at just $0.25 per million input tokens. (Source: IBM AI Trends)",
+                "url": "https://www.ibm.com/think/news/ai-tech-trends-predictions-2026"
+              }
+            ],
+            "insight": "Competition is shifting from pure scale to efficiency and specialization. The focus moves from individual model size to building ecosystems of task-optimized models."
+          },
+          {
+            "title": "2. Semiconductor Market Pivots to AI-Centric",
+            "overview": "South Korea's semiconductor industry reached record-breaking performance driven by AI demand. Production resources are reallocating from mobile to AI server substrates, signaling an acceleration in global AI infrastructure buildout.",
+            "items": [
+              {
+                "label": "Korea's March Semiconductor Exports Hit All-Time High",
+                "desc": "South Korea's semiconductor exports surged 151.4% year-over-year in March, crossing $30 billion monthly export value for the first time. AI chip demand combined with supply constraints drove price spikes. (Source: Today's News Korea)",
+                "url": "https://www.cliktoday.com/2026/04/20260403-today-news.html"
+              },
+              {
+                "label": "AI Substrate Demand Reshapes Industry",
+                "desc": "Explosive demand for AI server substrate is concentrating production resources, creating mobile chip shortages. The semiconductor market is fundamentally shifting from mobile-centric to AI-centric. (Source: SPA Times Korea)",
+                "url": "https://www.sptatimeskorea.com/post/%EC%A0%9C20260403-tm-01%ED%98%B8-2026%EB%85%84-4%EC%9B%94-3%EC%9D%BC-%EB%B0%98%EB%8F%84%EC%B2%B4-%EC%A0%9C%EC%A1%B0-%EA%B4%80%EB%A0%A8-%EC%A3%BC%EC%9A%94-%EB%89%B4%EC%8A%A4-%EC%9A%94%EC%95%BD"
+              },
+              {
+                "label": "Meta Expands MTIA Chip Deployment",
+                "desc": "Meta is rolling out its custom MTIA (Meta Training and Inference Accelerator) chips across data centers to reduce Nvidia dependence. MTIA 400 is in testing, with MTIA 450 and 500 slated for mass deployment by 2027. (Source: devFlokers News)",
+                "url": "https://www.devflokers.com/blog/ai-news-last-24-hours-april-2026-model-releases-breakthroughs"
+              }
+            ],
+            "insight": "The chip market's AI pivot is structural, not cyclical. This signals that AI infrastructure investment will sustain long-term."
+          },
+          {
+            "title": "3. Agents Move from Demo to Daily Use",
+            "overview": "2026's critical turning point: AI agents are graduating from research demos to real production workflows. Automated multi-step execution, complex decision-making, and real-time system integration define this new era.",
+            "items": [
+              {
+                "label": "AI Agents as Digital Coworkers",
+                "desc": "AI agents now function as digital coworkers amplifying individuals and small teams. MCP reduces friction in connecting agents to real systems, making 2026 the year agentic workflows truly enter daily practice. (Source: MIT Technology Review)",
+                "url": "https://www.technologyreview.com/2026/01/05/1130662/whats-next-for-ai-in-2026/"
+              },
+              {
+                "label": "Complex Multi-Step Workflows Automated",
+                "desc": "Latest models like GPT-5.4 can execute intricate multi-step workflows across local and cloud environments. This marks the fundamental shift from conversational AI to action-taking AI. (Source: InfoWorld)",
+                "url": "https://www.infoworld.com/article/4108092/6-ai-breakthroughs-that-will-define-2026.html"
+              }
+            ],
+            "insight": "Agents are no longer a research topic—they're a production concern. Stability, reliability, and ROI measurement will define 2026."
+          },
+          {
+            "title": "4. Record-Breaking AI Funding Surge",
+            "overview": "OpenAI, Anthropic, and other major AI companies are raising unprecedented capital. Q1 2026 venture deal value topped all records, and xAI's SpaceX acquisition signals AI's expansion into government and space sectors.",
+            "items": [
+              {
+                "label": "OpenAI Raises $12.2 Billion",
+                "desc": "OpenAI secured $12.2 billion from Amazon ($5B), Nvidia ($3B), and SoftBank ($3B). This represents the largest single funding round for an AI startup. (Source: Crescendo AI News)",
+                "url": "https://www.crescendo.ai/news/latest-ai-news-and-updates"
+              },
+              {
+                "label": "Anthropic Closes $3 Billion Series G",
+                "desc": "Anthropic secured $3 billion in Series G funding, supporting its $1.9B annualized revenue growth toward OpenAI's $2.5B. (Source: TechCrunch)",
+                "url": "https://techcrunch.com/2026/01/02/in-2026-ai-will-move-from-hype-to-pragmatism/"
+              },
+              {
+                "label": "SpaceX Acquires xAI for $25 Billion",
+                "desc": "Elon Musk's xAI was acquired by SpaceX for $25 billion, merging AI with space and communications infrastructure. (Source: Yahoo Finance)",
+                "url": "https://finance.yahoo.com/news/morgan-stanley-warns-ai-breakthrough-072000084.html"
+              },
+              {
+                "label": "Q1 Venture Deal Value Breaks Records",
+                "desc": "Q1 2026 venture deal value hit $26.72 billion—more than double the previous quarterly record. This reflects accelerating AI infrastructure investment. (Source: Crescendo AI News)",
+                "url": "https://www.crescendo.ai/news/latest-ai-news-and-updates"
+              }
+            ],
+            "insight": "Funding flows are shifting from tech validation to commercialization races. OpenAI's IPO preparations signal AI industry maturation."
+          },
+          {
+            "title": "5. South Korea's K-Content AI Strategy",
+            "overview": "Korean tech firms are aggressively applying AI to gaming, video, and content creation. Government support programs reflect strong interest in AI-powered game development and Korean-language model specialization.",
+            "items": [
+              {
+                "label": "AI Game Development Support Expands",
+                "desc": "South Korea's Cultural Content Ministry expanded AI game development grants to up to 300 million won per project, selecting approximately 9 projects without platform restrictions. (Source: ZDNet Korea)",
+                "url": "https://zdnet.co.kr/view/?no=20260224161740"
+              },
+              {
+                "label": "Korean-Optimized AI Models Advance",
+                "desc": "Domestic IT firms announced enhancements to Korean-language generative AI models, accelerating AI adoption for K-content creation tools. (Source: 전자신문)",
+                "url": "https://www.etnews.com/20251231000243?m=1"
+              },
+              {
+                "label": "Telecom Sector Boosts AI Investment",
+                "desc": "9 out of 10 Korean telecom companies report positive AI impact on revenue and costs, increasing 2026 AI budgets by an average of 89%. (Source: KITPA)",
+                "url": "https://kitpa.org/news/1120"
+              }
+            ],
+            "insight": "South Korea is weaponizing AI through semiconductors and content. Combining hardware strength with content strength via AI is a long-term competitive advantage."
+          },
+          {
+            "title": "6. Efficiency Revolution: Quantization Breakthroughs",
+            "overview": "The paradox is resolved: larger AI models now run cheaper. Breakthrough quantization techniques like Google's TurboQuant can reduce memory usage by 6x while maintaining accuracy. This democratizes AI.",
+            "items": [
+              {
+                "label": "Google's TurboQuant Unveiled at ICLR 2026",
+                "desc": "Google's TurboQuant quantizes KV caches to just 3 bits with zero accuracy loss, reducing memory usage by at least 6×. This fundamental efficiency breakthrough changes the economics of AI deployment. (Source: AIToolly)",
+                "url": "https://aitoolly.com/ai-news/article/2026-04-03-google-deepmind-unveils-gemma-4-high-intelligence-open-models-optimized-for-advanced-reasoning-and-a"
+              },
+              {
+                "label": "Post-Training Becomes Center of Gravity",
+                "desc": "In 2026, post-training techniques dominate over raw model size. Specialization via reinforcement learning creates high-performance models for specific tasks with minimal resources. (Source: MIT Technology Review)",
+                "url": "https://www.technologyreview.com/2026/01/05/1130662/whats-next-for-ai-in-2026/"
+              }
+            ],
+            "insight": "Efficiency isn't just cost reduction—it's AI democratization. The era of powerful AI on modest resources has arrived."
+          }
+        ],
+        "signals": {
+          "hot": "LLM performance competition intensifying — race shifting from raw scale to efficiency",
+          "grow": "AI agents in production — moving from proof-of-concept to real-world deployment at scale",
+          "warn": "Mobile chip shortages emerging — collateral damage from semiconductor market's AI pivot",
+          "shift": "AI industry maturation — from funding rush to commercialization phase, IPO preparations underway"
+        }
+      }
+    }
+  },
+  {
     "date": "2026-04-04",
     "translations": {
       "ko": {
